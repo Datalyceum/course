@@ -11,11 +11,13 @@ export default defineConfig({
       title: 'Datalyceum',
       description:
         'A free course on AI, data science and big data, with Microsoft Azure. Whiteboard video lessons, notes, quizzes and homework, from zero.',
-      logo: { src: './src/assets/logo.png', alt: 'Datalyceum' },
-      favicon: '/favicon.png',
+      logo: { light: './src/assets/logo.svg', dark: './src/assets/logo-dark.svg', alt: 'Datalyceum' },
+      favicon: '/favicon.svg',
       customCss: [
-        '@fontsource/shantell-sans/700.css',
-        '@fontsource/shantell-sans/800.css',
+        '@fontsource/fraunces/600.css',
+        '@fontsource/inter/400.css',
+        '@fontsource/inter/500.css',
+        '@fontsource/inter/600.css',
         './src/styles/custom.css',
       ],
       social: [
@@ -27,6 +29,7 @@ export default defineConfig({
       head: [
         { tag: 'meta', attrs: { property: 'og:image', content: `${SITE}/og/default.jpg` } },
         { tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
+        { tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' } },
       ],
       sidebar: [
         { label: 'Start here', slug: 'start-here' },
