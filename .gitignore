@@ -16,3 +16,8 @@ config.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Course website (Astro)
+site/node_modules/
+site/dist/
+site/.astro/

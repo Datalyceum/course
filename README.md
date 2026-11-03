@@ -4,7 +4,7 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TheAIMasteryAcademy/course)
 
-[Lessons on Substack](https://theaimasteryacademy.substack.com) · [Videos on YouTube](https://www.youtube.com/@TheAIMasteryAcademy) · [Start here](https://theaimasteryacademy.substack.com/p/start-here) · [Discussions](https://github.com/TheAIMasteryAcademy/course/discussions)
+**[Course website](https://theaimasteryacademy.github.io/course/)** · [Lessons on Substack](https://theaimasteryacademy.substack.com) · [Videos on YouTube](https://www.youtube.com/@TheAIMasteryAcademy) · [Start here](https://theaimasteryacademy.substack.com/p/start-here) · [Discussions](https://github.com/TheAIMasteryAcademy/course/discussions)
 
 ## Start here
 
@@ -67,6 +67,7 @@ course/
 ├── data/             small open datasets used in the lessons, with their licences
 ├── exam-maps/        which lessons prepare you for which Microsoft exam
 ├── cheatsheets/      one diagram a week, free to save and share
+├── site/             the course website (theaimasteryacademy.github.io/course)
 └── .devcontainer/    the setup for GitHub Codespaces
 ```
 
