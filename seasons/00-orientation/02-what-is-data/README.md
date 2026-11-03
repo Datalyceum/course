@@ -4,7 +4,7 @@
 
 | Video | Lesson post | Quizzes | Homework | Notebook |
 |---|---|---|---|---|
-| [Watch on YouTube](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read on Substack](https://theaimasteryacademy.substack.com/p/lesson-02-what-is-data) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [explore-penguins.ipynb](explore-penguins.ipynb) (optional) |
+| [Watch on YouTube](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read on Substack](https://datalyceum.substack.com/p/lesson-02-what-is-data) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [explore-penguins.ipynb](explore-penguins.ipynb) (optional) |
 
 ## What you will be able to do
 

@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Ask a question
-    url: https://github.com/TheAIMasteryAcademy/course/discussions
+    url: https://github.com/datalyceum/course/discussions
     about: Questions about a lesson go in Discussions, so everyone can learn from the answer.
   - name: Post your homework
-    url: https://github.com/TheAIMasteryAcademy/course/discussions
+    url: https://github.com/datalyceum/course/discussions
     about: Share your Stretch and Challenge answers in Discussions.

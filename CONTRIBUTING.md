@@ -4,13 +4,13 @@ Thank you for helping make this course better. The most useful help is simple: t
 
 ## Report a mistake
 
-Open an issue with the **Content error** form: https://github.com/TheAIMasteryAcademy/course/issues/new/choose
+Open an issue with the **Content error** form: https://github.com/datalyceum/course/issues/new/choose
 
 Say which lesson, what is wrong, and what you think it should say. A link to a source helps a lot.
 
 ## Ask a question or post homework
 
-Use [Discussions](https://github.com/TheAIMasteryAcademy/course/discussions), not issues. Questions help everyone when they are in one place.
+Use [Discussions](https://github.com/datalyceum/course/discussions), not issues. Questions help everyone when they are in one place.
 
 ## Pull requests
 

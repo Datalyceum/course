@@ -2,18 +2,16 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const SITE = 'https://theaimasteryacademy.github.io';
-const BASE = '/course';
+const SITE = 'https://datalyceum.com';
 
 export default defineConfig({
   site: SITE,
-  base: BASE,
   integrations: [
     starlight({
-      title: 'The AI Mastery Academy',
+      title: 'Datalyceum',
       description:
         'A free course on AI, data science and big data, with Microsoft Azure. Whiteboard video lessons, notes, quizzes and homework, from zero.',
-      logo: { src: './src/assets/logo.png', alt: 'The AI Mastery Academy' },
+      logo: { src: './src/assets/logo.png', alt: 'Datalyceum' },
       favicon: '/favicon.png',
       customCss: [
         '@fontsource/shantell-sans/700.css',
@@ -21,13 +19,13 @@ export default defineConfig({
         './src/styles/custom.css',
       ],
       social: [
-        { icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@TheAIMasteryAcademy' },
-        { icon: 'substack', label: 'Substack', href: 'https://theaimasteryacademy.substack.com' },
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/TheAIMasteryAcademy/course' },
+        { icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@datalyceum' },
+        { icon: 'substack', label: 'Substack', href: 'https://datalyceum.substack.com' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/datalyceum/course' },
       ],
-      editLink: { baseUrl: 'https://github.com/TheAIMasteryAcademy/course/edit/main/site/' },
+      editLink: { baseUrl: 'https://github.com/datalyceum/course/edit/main/site/' },
       head: [
-        { tag: 'meta', attrs: { property: 'og:image', content: `${SITE}${BASE}/og/default.jpg` } },
+        { tag: 'meta', attrs: { property: 'og:image', content: `${SITE}/og/default.jpg` } },
         { tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
       ],
       sidebar: [

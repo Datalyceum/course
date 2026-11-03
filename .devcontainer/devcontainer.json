@@ -1,5 +1,5 @@
 {
-  "name": "The AI Mastery Academy",
+  "name": "Datalyceum",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "postCreateCommand": "pip install --user -r requirements.txt",
   "customizations": {

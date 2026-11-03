@@ -11,7 +11,7 @@ Offers change, so check the current terms on the Azure website before you sign u
 
 ## Five rules for every lab
 
-1. **One resource group per lab.** Name it `rg-aimastery-<track>-<lab>`, for example `rg-aimastery-a-01`. Cleaning up is then one delete.
+1. **One resource group per lab.** Name it `rg-datalyceum-<track>-<lab>`, for example `rg-datalyceum-a-01`. Cleaning up is then one delete.
 2. **Set a budget on day one.** In Cost Management, create a small monthly budget (we use 10 US dollars) with an alert at 80%. The first lab shows how.
 3. **Stop compute when you stop working.** Compute instances keep charging while they run. Turn on idle shutdown, and stop them when you finish.
 4. **Delete when the lab is done.** A stopped resource can still cost a little for its storage. When you finish a lab, delete its resource group.

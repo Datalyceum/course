@@ -1,14 +1,14 @@
-# The AI Mastery Academy
+# Datalyceum
 
 **A free course that takes you from zero to a solid understanding of AI, data science and big data, and shows where each idea runs in the real world on Microsoft Azure.**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TheAIMasteryAcademy/course)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/datalyceum/course)
 
-**[Course website](https://theaimasteryacademy.github.io/course/)** · [Lessons on Substack](https://theaimasteryacademy.substack.com) · [Videos on YouTube](https://www.youtube.com/@TheAIMasteryAcademy) · [Start here](https://theaimasteryacademy.substack.com/p/start-here) · [Discussions](https://github.com/TheAIMasteryAcademy/course/discussions)
+**[Course website](https://datalyceum.com/)** · [Lessons on Substack](https://datalyceum.substack.com) · [Videos on YouTube](https://www.youtube.com/@datalyceum) · [Start here](https://datalyceum.substack.com/p/start-here) · [Discussions](https://github.com/datalyceum/course/discussions)
 
 ## Start here
 
-1. Read the [Start here page](https://theaimasteryacademy.substack.com/p/start-here). It takes two minutes.
+1. Read the [Start here page](https://datalyceum.substack.com/p/start-here). It takes two minutes.
 2. Begin with [Lesson 0.1: The Map](seasons/00-orientation/01-the-map), even if you already know some AI.
 3. Star this repository to keep track of new lessons.
 
@@ -28,8 +28,8 @@ A new lesson comes out every week. Short videos during the week recap one idea e
 
 | # | Lesson | Video | Lesson post | Materials |
 |---|---|---|---|---|
-| 0.1 | The Map: AI vs machine learning vs data science vs big data | [Watch](https://www.youtube.com/watch?v=zhgfQalHFfs) | [Read](https://theaimasteryacademy.substack.com/p/lesson-01-the-map) | [Open](seasons/00-orientation/01-the-map) |
-| 0.2 | What is data? Rows, columns and types, with real penguin data | [Watch](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read](https://theaimasteryacademy.substack.com/p/lesson-02-what-is-data) | [Open](seasons/00-orientation/02-what-is-data) |
+| 0.1 | The Map: AI vs machine learning vs data science vs big data | [Watch](https://www.youtube.com/watch?v=zhgfQalHFfs) | [Read](https://datalyceum.substack.com/p/lesson-01-the-map) | [Open](seasons/00-orientation/01-the-map) |
+| 0.2 | What is data? Rows, columns and types, with real penguin data | [Watch](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read](https://datalyceum.substack.com/p/lesson-02-what-is-data) | [Open](seasons/00-orientation/02-what-is-data) |
 | 0.3 | How machines learn: your first model, explained without code | Coming soon | Coming soon | [Open](seasons/00-orientation/03-how-machines-learn) |
 
 ## The course map
@@ -67,14 +67,14 @@ course/
 ├── data/             small open datasets used in the lessons, with their licences
 ├── exam-maps/        which lessons prepare you for which Microsoft exam
 ├── cheatsheets/      one diagram a week, free to save and share
-├── site/             the course website (theaimasteryacademy.github.io/course)
+├── site/             the course website (datalyceum.com)
 └── .devcontainer/    the setup for GitHub Codespaces
 ```
 
 ## Community
 
-- Ask questions and post homework in [Discussions](https://github.com/TheAIMasteryAcademy/course/discussions).
-- Found a mistake? Open an [issue](https://github.com/TheAIMasteryAcademy/course/issues/new/choose). See [CONTRIBUTING.md](CONTRIBUTING.md).
+- Ask questions and post homework in [Discussions](https://github.com/datalyceum/course/discussions).
+- Found a mistake? Open an [issue](https://github.com/datalyceum/course/issues/new/choose). See [CONTRIBUTING.md](CONTRIBUTING.md).
 - Please never post keys, passwords, subscription IDs or tenant IDs anywhere.
 
 ## Licence and credits

@@ -13,7 +13,7 @@ Take the [after-lesson quiz](quiz-post.md).
 3. Find the flipper length where Gentoo penguins start. Write your own rule: "flipper longer than ___ mm means Gentoo".
 4. Count how many penguins your rule gets wrong.
 
-You just trained a model by hand. Post your rule and your error count in [Discussions](https://github.com/TheAIMasteryAcademy/course/discussions).
+You just trained a model by hand. Post your rule and your error count in [Discussions](https://github.com/datalyceum/course/discussions).
 
 ## Challenge
 

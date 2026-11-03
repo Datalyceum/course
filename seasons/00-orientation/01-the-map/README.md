@@ -4,7 +4,7 @@
 
 | Video | Lesson post | Quizzes | Homework |
 |---|---|---|---|
-| [Watch on YouTube](https://www.youtube.com/watch?v=zhgfQalHFfs) | [Read on Substack](https://theaimasteryacademy.substack.com/p/lesson-01-the-map) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) |
+| [Watch on YouTube](https://www.youtube.com/watch?v=zhgfQalHFfs) | [Read on Substack](https://datalyceum.substack.com/p/lesson-01-the-map) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) |
 
 ## What you will be able to do
 

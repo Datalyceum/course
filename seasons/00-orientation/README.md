@@ -16,4 +16,4 @@ Pick one open dataset you care about (your city, your industry or a public data 
 2. The five dataset questions from lesson 0.2: what is one row, the shape, the type of each column, what's missing or strange, and where it came from.
 3. If you trained a model on it, what would the features and the label be?
 
-Submit it through [Issues > New issue > Season capstone submission](https://github.com/TheAIMasteryAcademy/course/issues/new/choose).
+Submit it through [Issues > New issue > Season capstone submission](https://github.com/datalyceum/course/issues/new/choose).

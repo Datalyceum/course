@@ -1,6 +1,6 @@
 ---
 title: Course map
-description: 'The full plan of The AI Mastery Academy: 40 theory lessons in 8 seasons, a first look lab, then about 24 hands-on lessons on Microsoft Azure.'
+description: 'The full plan of Datalyceum: 40 theory lessons in 8 seasons, a first look lab, then about 24 hands-on lessons on Microsoft Azure.'
 ---
 40 theory lessons in 8 seasons, a short "first look" lab, then about 24 hands-on Azure lessons. Every theory lesson ends with where the idea lives in Microsoft Azure.
 
@@ -10,8 +10,8 @@ Lesson numbers are `season.lesson`, so 2.3 is Season 2, lesson 3. Titles may cha
 
 | # | Lesson | Azure picture |
 |---|---|---|
-| 0.1 | [The Map: AI vs machine learning vs data science vs big data](/course/season-0/lesson-0-1-the-map/) | Where each Azure service fits on the map |
-| 0.2 | [What is data? Rows, columns and types, with real penguin data](/course/season-0/lesson-0-2-what-is-data/) | Azure SQL Database, Azure Blob Storage, Azure Cosmos DB |
+| 0.1 | [The Map: AI vs machine learning vs data science vs big data](/season-0/lesson-0-1-the-map/) | Where each Azure service fits on the map |
+| 0.2 | [What is data? Rows, columns and types, with real penguin data](/season-0/lesson-0-2-what-is-data/) | Azure SQL Database, Azure Blob Storage, Azure Cosmos DB |
 | 0.3 | How machines learn: your first model, explained without code <span class="soon">coming soon</span> | Azure Machine Learning |
 
 ## Season 1: Data foundations
@@ -95,4 +95,4 @@ Lesson numbers are `season.lesson`, so 2.3 is Season 2, lesson 3. Titles may cha
 
 ## Then: the hands-on track
 
-About 24 lessons in four tracks, with real Azure screens. See [labs on GitHub](https://github.com/TheAIMasteryAcademy/course/tree/main/labs), including the rules for cost and cleanup.
+About 24 lessons in four tracks, with real Azure screens. See [labs on GitHub](https://github.com/datalyceum/course/tree/main/labs), including the rules for cost and cleanup.

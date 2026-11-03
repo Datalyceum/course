@@ -11,7 +11,7 @@ You are free to:
 
 Under these terms:
 
-- **Attribution:** credit "The AI Mastery Academy by Sedat Salman", link to this repository and say if you changed anything.
+- **Attribution:** credit "Datalyceum by Sedat Salman", link to this repository and say if you changed anything.
 - **NonCommercial:** you may not use the material for commercial purposes.
 - **ShareAlike:** if you adapt the material, share your version under the same licence.
 
