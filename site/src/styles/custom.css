@@ -1,0 +1,61 @@
+/* The AI Mastery Academy: whiteboard look. Blue accent from the videos, hand-drawn headings. */
+:root {
+  --sl-color-accent-low: #0b2a4a;
+  --sl-color-accent: #4dabf7;
+  --sl-color-accent-high: #d0ebff;
+  --tama-hand: 'Shantell Sans', ui-sans-serif, system-ui, sans-serif;
+}
+:root[data-theme='light'] {
+  --sl-color-accent-low: #d0ebff;
+  --sl-color-accent: #1971c2;
+  --sl-color-accent-high: #0b3d73;
+}
+
+/* Hand-drawn font for titles only; body text stays in the normal font for easy reading. */
+.site-title,
+h1#_top,
+.hero h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3 {
+  font-family: var(--tama-hand);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+.site-title { font-size: 1.05rem; }
+
+/* Diagrams: soft frame, like a sheet pinned to the board. */
+.sl-markdown-content img {
+  border-radius: 10px;
+  border: 1px solid var(--sl-color-gray-5);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.06);
+}
+.hero img { border: none; box-shadow: none; border-radius: 12px; }
+
+/* The video embed gets the same frame. */
+.sl-markdown-content lite-youtube {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-block: 1rem 1.5rem;
+}
+
+/* Light theme: warm paper background like the whiteboard videos. */
+:root[data-theme='light'] {
+  --sl-color-bg: #fbfaf6;
+  --sl-color-bg-nav: #fbfaf6;
+  --sl-color-bg-sidebar: #f6f4ee;
+}
+
+/* Small "coming soon" tag used in lesson lists. */
+.soon {
+  font-size: 0.75em;
+  padding: 0.1em 0.5em;
+  border-radius: 999px;
+  background: var(--sl-color-gray-6);
+  color: var(--sl-color-gray-2);
+  margin-inline-start: 0.4em;
+}
+
+/* Keep the site name on one line on phones. */
+@media (max-width: 30rem) {
+  .site-title { font-size: 0.9rem; }
+}
