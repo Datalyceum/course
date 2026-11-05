@@ -1,0 +1,61 @@
+---
+title: 'Picture #1: Programming vs machine learning'
+description: 'A factory motor fails with no alarm. One picture on the difference between rules written by people and rules learned from data.'
+sidebar:
+  label: '#1 Programming vs machine learning'
+  order: 1
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/pictures-01.jpg
+---
+
+![A comparison of traditional programming and machine learning, using a factory motor. Top: an engineer writes threshold rules, each sensor stays under its limit, there is no alarm, and the motor fails two days later. Bottom: a model learns from years of sensor readings and past failures that vibration and current rising together come before a failure, and warns of a 78% failure risk this week.](../../../assets/pictures/p01.png)
+
+[Download the full-size picture (PNG)](/pictures/learn-ai-with-pictures-01-programming-vs-machine-learning.png) · [Watch the 40-second video](https://www.youtube.com/@datalyceum/shorts)
+
+## The puzzle
+
+A motor in a factory. Temperature is normal. Vibration is under its limit. Current is under its limit. No alarm. Two days later, the motor fails.
+
+Nothing was broken in the monitoring system. It did exactly what it was told. The problem is how it was told.
+
+## Rules written by a person
+
+Most plant monitoring starts with thresholds. An engineer writes the rules: if the temperature goes above 90 °C, raise an alarm. If vibration goes above its limit, call maintenance.
+
+These rules are clear and easy to check, and they catch known problems well. But each rule looks at **one sensor at a time**. In our motor, every reading stayed under its own line, so no rule fired.
+
+## Rules learned from data
+
+Machine learning turns the job around. Instead of writing the rules, you give the computer two things:
+
+- **Data:** years of sensor readings, such as temperature, vibration, current and pressure.
+- **Answers:** the record of every past failure, with its date.
+
+The computer looks for what came before each failure. Here it finds a combination no single rule could see: **vibration and current rising together**, while the temperature still looks normal. Those learned rules are called the **model**.
+
+The model doesn't answer yes or no. It gives a probability, such as "78% risk of failure this week". That's enough to plan the repair before the motor breaks. This use of machine learning is called **predictive maintenance**.
+
+## In one line
+
+- **Programming:** rules + data → answers
+- **Machine learning:** data + answers → rules (the model)
+
+## Things to keep in mind
+
+- **The alarms stay.** In real plants a model like this runs next to the threshold alarms, not instead of them. The thresholds still protect against limits you already know.
+- **No failures, no learning.** The model can only learn warning signs that appear in its history. If a kind of failure never happened before, the model has never seen what comes before it.
+- **The 78% is an example.** In this picture it shows what a risk score looks like, not a real measurement.
+
+## Where this lives in Azure
+
+Models like this are trained and run in **Azure Machine Learning**, which we cover later in the course.
+
+## Go deeper
+
+- [Lesson 0.1: The Map](/season-0/lesson-0-1-the-map/) shows where machine learning sits next to AI, data science and big data.
+- Lesson 0.3, How machines learn, is coming soon and explains how a model finds those warning signs.
+
+*Free to share with credit: "Datalyceum, datalyceum.com", under the [CC BY-NC-SA 4.0 licence](https://github.com/datalyceum/course/blob/main/LICENSE-CONTENT.md).*

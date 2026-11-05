@@ -38,6 +38,10 @@ export default defineConfig({
           label: 'Season 0: Orientation',
           items: [{ autogenerate: { directory: 'season-0' } }],
         },
+        {
+          label: 'Learn AI with Pictures',
+          items: [{ autogenerate: { directory: 'pictures' } }],
+        },
         { label: 'About', slug: 'about' },
       ],
     }),

@@ -32,6 +32,14 @@ A new lesson comes out every week. Short videos during the week recap one idea e
 | 0.2 | What is data? Rows, columns and types, with real penguin data | [Watch](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read](https://datalyceum.substack.com/p/lesson-02-what-is-data) | [Open](seasons/00-orientation/02-what-is-data) |
 | 0.3 | How machines learn: your first model, explained without code | Coming soon | Coming soon | [Open](seasons/00-orientation/03-how-machines-learn) |
 
+## Learn AI with Pictures
+
+A side series: one AI idea in one picture, with a 40-second video. The pictures are in [pictures/](pictures) and on the [website](https://datalyceum.com/pictures/).
+
+| # | Picture |
+|---|---|
+| 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) |
+
 ## The course map
 
 The course has two tracks. First the theory, then the hands-on track on real Azure. The full episode list is in [seasons/README.md](seasons/README.md).
