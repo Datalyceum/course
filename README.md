@@ -36,9 +36,9 @@ A new lesson comes out every week. Short videos during the week recap one idea e
 
 A side series: one AI idea in one picture, with a 40-second video. The pictures are in [pictures/](pictures) and on the [website](https://datalyceum.com/pictures/).
 
-| # | Picture |
-|---|---|
-| 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) |
+| # | Picture | Video |
+|---|---|---|
+| 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) |
 
 ## The course map
 

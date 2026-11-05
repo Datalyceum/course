@@ -10,5 +10,6 @@
 
 **In one line.** Programming: rules + data → answers. Machine learning: data + answers → rules.
 
+- Watch the 40-second video: https://youtube.com/shorts/JSz5A8qPGu8
 - Read the full page: https://datalyceum.com/pictures/01-programming-vs-machine-learning/
 - Go deeper: [Lesson 0.1: The Map](../../seasons/00-orientation/01-the-map)

@@ -4,7 +4,7 @@ One AI idea, one picture. Each picture can be read in about a minute and comes w
 
 | # | Picture | Web page | Video |
 |---|---|---|---|
-| 1 | [Programming vs machine learning](01-programming-vs-machine-learning) | [Read](https://datalyceum.com/pictures/01-programming-vs-machine-learning/) | [Shorts](https://www.youtube.com/@datalyceum/shorts) |
+| 1 | [Programming vs machine learning](01-programming-vs-machine-learning) | [Read](https://datalyceum.com/pictures/01-programming-vs-machine-learning/) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) |
 
 New pictures come out weekly, alongside the lessons. Subscribe free on [Substack](https://datalyceum.substack.com) to get them by email.
 
