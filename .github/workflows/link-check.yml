@@ -12,5 +12,6 @@ jobs:
       - name: Check links in Markdown files
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --exclude-path site './**/*.md'
+          # Substack blocks automated checkers with 403, so its links are skipped here.
+          args: --no-progress --exclude-path site --exclude 'substack\.com' './**/*.md'
           fail: true
