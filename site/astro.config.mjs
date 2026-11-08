@@ -11,10 +11,10 @@ export default defineConfig({
       title: 'Datalyceum',
       description:
         'A free course on AI, data science and big data, with Microsoft Azure. Whiteboard video lessons, notes, quizzes and homework, from zero.',
-      logo: { light: './src/assets/logo.svg', dark: './src/assets/logo-dark.svg', alt: 'Datalyceum' },
+      logo: { light: './src/assets/logo.svg', dark: './src/assets/logo-dark.svg', alt: 'Datalyceum', replacesTitle: true },
       favicon: '/favicon.svg',
       customCss: [
-        '@fontsource/fraunces/600.css',
+        '@fontsource/sora/600.css',
         '@fontsource/inter/400.css',
         '@fontsource/inter/500.css',
         '@fontsource/inter/600.css',

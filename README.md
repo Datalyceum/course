@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/assets/readme-banner.png" alt="datalyceum: AI, data science and big data, theory first, hands-on with Azure" width="100%"></p>
+
 # Datalyceum
 
 **A free course that takes you from zero to a solid understanding of AI, data science and big data, and shows where each idea runs in the real world on Microsoft Azure.**
