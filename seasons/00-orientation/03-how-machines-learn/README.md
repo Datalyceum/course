@@ -1,10 +1,10 @@
 # Lesson 0.3: How machines learn
 
-**Your first model, explained without code**
+**Your first model, trained on real penguin data**
 
 | Video | Lesson post | Quizzes | Homework | Notebook |
 |---|---|---|---|---|
-| [Watch on YouTube](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read the notes](https://datalyceum.com/season-0/lesson-0-3-how-machines-learn/) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [first-model.ipynb](first-model.ipynb) (optional) |
+| [Watch on YouTube](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read on Substack](https://datalyceum.substack.com/p/lesson-03-how-machines-learn) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [first-model.ipynb](first-model.ipynb) (optional) |
 
 ## What you will be able to do
 

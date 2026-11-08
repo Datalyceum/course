@@ -10,6 +10,7 @@
 
 - Watch the one-minute video: https://youtube.com/shorts/O-__d6mncdY
 - Read the full page: https://datalyceum.com/pictures/02-how-a-machine-learns/
+- Read the post on Substack: https://datalyceum.substack.com/p/learn-ai-with-pictures-2-how-a-machine
 - Go deeper: [Lesson 0.3: How machines learn](../../seasons/00-orientation/03-how-machines-learn)
 
 Source: A. L. Samuel, "Some Studies in Machine Learning Using the Game of Checkers", IBM Journal of Research and Development, 1959.

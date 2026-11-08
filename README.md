@@ -36,12 +36,12 @@ A new lesson comes out every week. Short videos during the week recap one idea e
 
 ## Learn AI with Pictures
 
-A side series: one AI idea in one picture, with a 40-second video. The pictures are in [pictures/](pictures) and on the [website](https://datalyceum.com/pictures/).
+A side series: one AI idea in one picture, with a video under a minute long. The pictures are in [pictures/](pictures) and on the [website](https://datalyceum.com/pictures/).
 
-| # | Picture | Video |
-|---|---|---|
-| 2 | [How a machine learns](pictures/02-how-a-machine-learns) | [Watch](https://youtube.com/shorts/O-__d6mncdY) |
-| 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) |
+| # | Picture | Video | Post |
+|---|---|---|---|
+| 2 | [How a machine learns](pictures/02-how-a-machine-learns) | [Watch](https://youtube.com/shorts/O-__d6mncdY) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-2-how-a-machine) |
+| 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-1-programming) |
 
 ## The course map
 
@@ -49,7 +49,7 @@ The course has two tracks. First the theory, then the hands-on track on real Azu
 
 | Season | Topic | Lessons | Where it lives in Azure | Status |
 |---|---|---|---|---|
-| 0 | Orientation: the big picture | 3 | Where each Azure service fits | In progress |
+| 0 | Orientation: the big picture | 3 | Where each Azure service fits | Out now |
 | 1 | Data foundations | 6 | Azure SQL Database, Power BI in Microsoft Fabric | Coming |
 | 2 | Big data | 5 | Azure Data Lake Storage, Microsoft Fabric, Azure Databricks | Coming |
 | | First look lab: Python and your first AI model call | 2 | GitHub Codespaces, Microsoft Foundry | Coming |

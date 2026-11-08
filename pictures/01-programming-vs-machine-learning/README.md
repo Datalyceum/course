@@ -12,4 +12,5 @@
 
 - Watch the 40-second video: https://youtube.com/shorts/JSz5A8qPGu8
 - Read the full page: https://datalyceum.com/pictures/01-programming-vs-machine-learning/
+- Read the post on Substack: https://datalyceum.substack.com/p/learn-ai-with-pictures-1-programming
 - Go deeper: [Lesson 0.1: The Map](../../seasons/00-orientation/01-the-map)

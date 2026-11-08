@@ -12,6 +12,7 @@ Details for each dataset are in its own folder under [data](data).
 
 - **Icons:** some whiteboard icons are redrawn from [Lucide](https://lucide.dev), under the ISC License. A few Lucide icons come from the Feather project, under the MIT License. The full text is in [LICENSE-lucide.txt](LICENSE-lucide.txt).
 - **Handwriting font:** Shantell Sans, under the SIL Open Font License 1.1.
+- **Brand fonts:** Sora for titles and Inter for body text, on the website, pictures and covers. Both are under the SIL Open Font License 1.1.
 - **Diagrams:** all diagrams are original and drawn for this course.
 
 ## Recommended free courses

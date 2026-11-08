@@ -6,7 +6,7 @@ Three lessons that give you the whole picture before we go deep. By the end of t
 |---|---|---|
 | 0.1 | The Map: AI vs machine learning vs data science vs big data | [01-the-map](01-the-map) |
 | 0.2 | What is data? Rows, columns and types, with real penguin data | [02-what-is-data](02-what-is-data) |
-| 0.3 | How machines learn: your first model, explained without code | [03-how-machines-learn](03-how-machines-learn) |
+| 0.3 | How machines learn: your first model, trained on real penguin data | [03-how-machines-learn](03-how-machines-learn) |
 
 ## Season capstone
 
