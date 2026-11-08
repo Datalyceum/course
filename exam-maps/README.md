@@ -22,4 +22,4 @@ Which parts of the course help with which Microsoft certification. Status checke
 |---|---|---|
 | 0.1 The Map | AI concepts | Core data concepts |
 | 0.2 What is data? | | Core data concepts: data types, structured and unstructured data |
-| 0.3 How machines learn | Machine learning concepts | |
+| 0.3 How machines learn | Background only. AI-901 doesn't list classic machine learning, AI-900 did | |

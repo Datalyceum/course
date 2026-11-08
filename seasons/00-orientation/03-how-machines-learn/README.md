@@ -4,7 +4,7 @@
 
 | Video | Lesson post | Quizzes | Homework | Notebook |
 |---|---|---|---|---|
-| Coming soon | Coming soon | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [first-model.ipynb](first-model.ipynb) (optional) |
+| [Watch on YouTube](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read the notes](https://datalyceum.com/season-0/lesson-0-3-how-machines-learn/) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [first-model.ipynb](first-model.ipynb) (optional) |
 
 ## What you will be able to do
 
@@ -31,7 +31,7 @@ Can we tell a penguin's species from two measurements? We used 342 penguins (the
 
 - The first rule the model learned: **flipper longer than 206.5 mm means Gentoo**. That one rule alone is right for about 98% of the penguins on the Gentoo-or-not question.
 - With one more rule on bill length, it separates Adelie from Chinstrap too.
-- This small model got **84 of the 86 hidden penguins right (98%)**.
+- This small model got **84 of the 86 hidden penguins right (98%)**. One miss is a Chinstrap 0.15 mm under the bill line; the other is a Gentoo with an unusually short bill.
 - A model allowed to grow as big as it likes got 100% on the training penguins but only 95% on the hidden ones. That is overfitting, on a real dataset.
 
 You can check every number yourself in [first-model.ipynb](first-model.ipynb).
@@ -45,7 +45,7 @@ You can check every number yourself in [first-model.ipynb](first-model.ipynb).
 | Build a training flow by drag and drop | Designer in Azure Machine Learning |
 | Use a ready-made model instead of training one | Microsoft Foundry |
 
-**Exam link:** Azure AI Fundamentals (machine learning concepts). See [exam-maps](../../../exam-maps).
+**Exam link:** these ideas were part of Azure AI Fundamentals (AI-900), which retired on 30 June 2026. Its replacement, AI-901, focuses on generative AI. See [exam-maps](../../../exam-maps).
 
 ## Homework
 

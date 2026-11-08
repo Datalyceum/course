@@ -12,7 +12,7 @@ Lesson numbers are `season.lesson`, so 2.3 is Season 2, lesson 3. Titles may cha
 |---|---|---|
 | 0.1 | [The Map: AI vs machine learning vs data science vs big data](/season-0/lesson-0-1-the-map/) | Where each Azure service fits on the map |
 | 0.2 | [What is data? Rows, columns and types, with real penguin data](/season-0/lesson-0-2-what-is-data/) | Azure SQL Database, Azure Blob Storage, Azure Cosmos DB |
-| 0.3 | How machines learn: your first model, explained without code <span class="soon">coming soon</span> | Azure Machine Learning |
+| 0.3 | [How machines learn: your first model, trained on real penguin data](/season-0/lesson-0-3-how-machines-learn/) | Azure Machine Learning, Automated ML |
 
 ## Season 1: Data foundations
 

@@ -30,7 +30,7 @@ A new lesson comes out every week. Short videos during the week recap one idea e
 |---|---|---|---|---|
 | 0.1 | The Map: AI vs machine learning vs data science vs big data | [Watch](https://www.youtube.com/watch?v=zhgfQalHFfs) | [Read](https://datalyceum.substack.com/p/lesson-01-the-map) | [Open](seasons/00-orientation/01-the-map) |
 | 0.2 | What is data? Rows, columns and types, with real penguin data | [Watch](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read](https://datalyceum.substack.com/p/lesson-02-what-is-data) | [Open](seasons/00-orientation/02-what-is-data) |
-| 0.3 | How machines learn: your first model, explained without code | Coming soon | Coming soon | [Open](seasons/00-orientation/03-how-machines-learn) |
+| 0.3 | How machines learn: your first model, trained on real penguin data | [Watch](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read](https://datalyceum.substack.com/p/lesson-03-how-machines-learn) | [Open](seasons/00-orientation/03-how-machines-learn) |
 
 ## Learn AI with Pictures
 
