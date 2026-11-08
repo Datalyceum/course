@@ -1,0 +1,74 @@
+---
+title: 'Picture #2: How a machine learns'
+description: 'In 1959, a checkers program learned to play better than the man who wrote it. One picture on the loop every model learns with: guess, check, adjust, repeat.'
+sidebar:
+  label: '#2 How a machine learns'
+  order: 2
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/pictures-02.jpg
+---
+
+![How a machine learns. True story, 1959: Arthur Samuel's checkers program at IBM played against itself and learned to play better than the man who wrote it. The learning loop: 1 guess, 2 check, 3 adjust, 4 repeat, around the model. What it learns is how much each clue counts, the weights, for pieces ahead, kings and control of the centre, which change from start to later.](../../../assets/pictures/p02.png)
+
+[Download the full-size picture (PNG)](/pictures/learn-ai-with-pictures-02-how-a-machine-learns.png) · [Watch on YouTube](https://youtube.com/shorts/O-__d6mncdY)
+
+## Watch the one-minute video
+
+Audio in English, French, Spanish and Japanese (on YouTube: Settings → Audio track).
+
+<div style={{ maxWidth: '340px', margin: '1.25rem auto' }}>
+  <div style={{ position: 'relative', aspectRatio: '9 / 16' }}>
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/O-__d6mncdY"
+      title="How a machine learns: guess, check, adjust (the 1959 checkers story)"
+      style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0, borderRadius: '12px' }}
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+## The story
+
+In 1959, Arthur Samuel, an engineer at IBM, published a paper on a program that played checkers. His claim was bold for the time: a computer could learn to play a better game than the person who wrote the program. The paper also helped give the field its name: machine learning.
+
+## Clues, not moves
+
+Samuel never typed in good moves. He gave the program a way to score a position, built from clues he chose:
+
+- **Pieces ahead:** how many more pieces it has than the opponent.
+- **Kings:** pieces that reached the far side and can move both ways.
+- **Control of the centre:** pieces on the middle squares.
+
+Each clue gets a number, its **weight**, that says how much it counts. Add up every clue times its weight, and you get the program's guess of how good a position is. The program didn't know the right weights. That's what it had to learn.
+
+## The loop
+
+1. **Guess.** Start with weights that are only a guess, and score the position.
+2. **Check.** Look a few moves further ahead and score the position again. If the two scores disagree, the first one was wrong.
+3. **Adjust.** Nudge the weights a little, so the quick score gets closer to what the deeper look found.
+4. **Repeat.** Play again, often against a copy of itself, and keep nudging.
+
+Over many games the weights settle, and the program plays better than when it started.
+
+## Why it matters today
+
+The same loop trains today's models. A model makes a prediction, training measures how far off it was, and the weights get nudged to make the next prediction a little better. A modern network has millions or billions of weights instead of a few dozen, and the nudging is done with maths called gradient descent, but the idea hasn't changed.
+
+## Things to keep in mind
+
+- **The clues came from a person.** Samuel chose what the program should look at. Picking good inputs, called features, is still a big part of the work. Deep learning goes one step further and learns its own features from raw data.
+- **It never understood checkers.** It learned which numbers lead to good positions, nothing more.
+- **The bars are an illustration.** They show the idea of weights changing, not Samuel's real numbers.
+- **Not every model learns by nudging weights.** The decision tree in [Lesson 0.3](/season-0/lesson-0-3-how-machines-learn/) learns by trying splits and keeping the best one. The spirit is the same: try, check, keep what works.
+
+## Go deeper
+
+- [Lesson 0.3: How machines learn](/season-0/lesson-0-3-how-machines-learn/) trains a real model on 342 penguins and shows the trap of overfitting.
+- [Picture #1: Programming vs machine learning](/pictures/01-programming-vs-machine-learning/) shows what changes when the rules are learned instead of written.
+
+*Source: A. L. Samuel, "Some Studies in Machine Learning Using the Game of Checkers", IBM Journal of Research and Development, 1959. Free to share with credit: "Datalyceum, datalyceum.com", under the [CC BY-NC-SA 4.0 licence](https://github.com/datalyceum/course/blob/main/LICENSE-CONTENT.md).*

@@ -40,6 +40,7 @@ A side series: one AI idea in one picture, with a 40-second video. The pictures 
 
 | # | Picture | Video |
 |---|---|---|
+| 2 | [How a machine learns](pictures/02-how-a-machine-learns) | [Watch](https://youtube.com/shorts/O-__d6mncdY) |
 | 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) |
 
 ## The course map
