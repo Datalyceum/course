@@ -51,7 +51,7 @@ Results from [first-model.ipynb](first-model.ipynb), with 256 penguins for train
 - **Depths 2 and 3 score the same on the test,** but depth 2 does it with 4 rules instead of 7. When two models do equally well, pick the simpler one.
 - **From depth 5, the model starts to overfit.** The training score goes up and the test score goes down. The extra rules fit the training penguins, not penguins in general.
 
-One honest caveat: we chose depth 2 by looking at the test score. Do that many times and the test stops being a fair surprise. Later in the course we add a third set, the validation set, for exactly this choice.
+A caveat: we chose depth 2 by looking at the test score. Do that many times and the test stops being a fair surprise. Later in the course we add a third set, the validation set, for exactly this choice.
 
 ## Think about it
 
