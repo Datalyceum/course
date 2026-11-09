@@ -8,7 +8,7 @@ Take the [after-lesson quiz](quiz-post.md).
 
 ## Stretch (no code)
 
-Think of one problem from your job or your life that data could help with. Decide where it sits on the map: data science, big data, machine learning or generative AI. Post it in [Discussions](https://github.com/datalyceum/course/discussions) in two or three sentences, and say why you put it there.
+Think of one problem from your job or your life that data could help with. Decide where it sits on the map: data science, big data, machine learning or generative AI. Post it in the [Lesson 0.1 homework thread](https://github.com/datalyceum/course/discussions/3) in two or three sentences, and say why you put it there.
 
 ## Challenge
 

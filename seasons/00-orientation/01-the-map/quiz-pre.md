@@ -1,15 +1,25 @@
 # Lesson 0.1: quiz before the lesson
 
-Three quick questions. Don't worry about getting them wrong, this is just to see where you start.
+Three quick questions. Don't worry about getting them wrong. This is just to see where you start.
 
 **1. Which is the broadest idea?**
-A) Machine learning  B) Deep learning  C) Artificial intelligence  D) Generative AI
+
+- A) Machine learning
+- B) Deep learning
+- C) Artificial intelligence
+- D) Generative AI
 
 **2. Is every data science project an AI project?**
-A) Yes  B) No
+
+- A) Yes
+- B) No
 
 **3. Which of these creates new text or images?**
-A) Big data  B) Generative AI  C) A spreadsheet  D) A database
+
+- A) Big data
+- B) Generative AI
+- C) A spreadsheet
+- D) A database
 
 <details>
 <summary>Show answers</summary>

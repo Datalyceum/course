@@ -21,7 +21,7 @@
 - **Artificial intelligence (AI)** is the broad goal: computers doing tasks that normally need human intelligence. It is the biggest circle on the map.
 - **Machine learning** is one way to reach that goal. Instead of writing rules by hand, we show the computer examples with answers, and it learns the pattern.
 - **Deep learning** is machine learning with neural networks of many layers. It drives image recognition, speech and language.
-- **Generative AI** sits inside deep learning. It doesn't just predict, it creates new text, images, code or audio. **AI agents** use a language model to plan steps and use tools to get a task done.
+- **Generative AI** sits inside deep learning. Instead of only predicting, it creates new text, images, code or audio. **AI agents** use a language model to plan steps and use tools to get a task done.
 - **How it all connects:** data science and big data prepare the data, machine learning learns from it, and AI is what people use at the end.
 
 ## A real example

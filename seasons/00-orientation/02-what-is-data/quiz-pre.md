@@ -1,13 +1,23 @@
 # Lesson 0.2: quiz before the lesson
 
 **1. Is a photo on your phone data?**
-A) Yes  B) No
+
+- A) Yes
+- B) No
 
 **2. In a table, one row is usually:**
-A) One variable  B) One observation  C) One value  D) One file
+
+- A) One variable
+- B) One observation
+- C) One value
+- D) One file
 
 **3. Which of these is a number you measure?**
-A) Island  B) Species  C) Body mass  D) Sex
+
+- A) Island
+- B) Species
+- C) Body mass
+- D) Sex
 
 <details>
 <summary>Show answers</summary>

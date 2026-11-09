@@ -1,13 +1,25 @@
 # Lesson 0.1: quiz after the lesson
 
 **1. A program that learns to spot spam from thousands of labelled emails is an example of:**
-A) A rule-based program  B) Machine learning  C) Big data  D) A database
+
+- A) A rule-based program
+- B) Machine learning
+- C) Big data
+- D) A database
 
 **2. The three Vs of big data are:**
-A) Volume, velocity, variety  B) Value, vision, version  C) Volume, value, visuals  D) Velocity, vectors, views
+
+- A) Volume, velocity, variety
+- B) Value, vision, version
+- C) Volume, value, visuals
+- D) Velocity, vectors, views
 
 **3. Which Azure service is where you pick, test and build with AI models and agents?**
-A) Azure Databricks  B) Microsoft Fabric  C) Microsoft Foundry  D) Azure Data Lake Storage
+
+- A) Azure Databricks
+- B) Microsoft Fabric
+- C) Microsoft Foundry
+- D) Azure Data Lake Storage
 
 <details>
 <summary>Show answers</summary>
