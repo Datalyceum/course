@@ -8,11 +8,11 @@
 | island | categorical, nominal | Biscoe, Dream or Torgersen |
 | bill_length_mm | numerical, continuous | bill length in millimetres |
 | bill_depth_mm | numerical, continuous | bill depth in millimetres |
-| flipper_length_mm | numerical | flipper length in millimetres (recorded as whole numbers) |
-| body_mass_g | numerical | body mass in grams (recorded as whole numbers) |
+| flipper_length_mm | numerical, continuous | flipper length in millimetres (recorded as whole numbers) |
+| body_mass_g | numerical, continuous | body mass in grams (rounded to the nearest 25 g) |
 | sex | categorical, nominal | MALE or FEMALE |
 
-Missing values are empty cells. 2 penguins have no measurements, and 11 penguins (those 2 included) have no value for sex.
+Missing values are empty cells. Two penguins have no measurements, and 11 penguins (those two included) have no value for sex.
 
 Counts: 152 Adelie, 124 Gentoo, 68 Chinstrap.
 

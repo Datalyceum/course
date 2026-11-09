@@ -8,7 +8,7 @@
 
 Details for each dataset are in its own folder under [data](data).
 
-## In the videos
+## In the videos, pictures and website
 
 - **Icons:** some whiteboard icons are redrawn from [Lucide](https://lucide.dev), under the ISC License. A few Lucide icons come from the Feather project, under the MIT License. The full text is in [LICENSE-lucide.txt](LICENSE-lucide.txt).
 - **Handwriting font:** Shantell Sans, under the SIL Open Font License 1.1.

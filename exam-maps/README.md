@@ -12,7 +12,7 @@ Which parts of the course help with which Microsoft certification. Status checke
 
 ## Notes
 
-- **AI-901 is not theory only.** It includes hands-on work with Microsoft Foundry and basic Python. That is why the course adds a short first look lab after Season 2, so you can try the exam before the full hands-on track.
+- **AI-901 is not theory only.** It includes hands-on work with Microsoft Foundry and basic Python. That is why the course adds a short first look lab after Season 2, so you can be ready for the exam before the full hands-on track.
 - **DP-100 (Azure Data Scientist Associate) retired on 1 June 2026.** Older study guides still mention it.
 - In the videos we use the certification names, not the exam codes, because codes change. The codes live here, and this page is kept up to date.
 
@@ -22,4 +22,4 @@ Which parts of the course help with which Microsoft certification. Status checke
 |---|---|---|
 | 0.1 The Map | AI concepts | Core data concepts |
 | 0.2 What is data? | | Core data concepts: data types, structured and unstructured data |
-| 0.3 How machines learn | Background only. AI-901 doesn't list classic machine learning, AI-900 did | |
+| 0.3 How machines learn | Background only. AI-901 doesn't list classic machine learning. AI-900 did | |

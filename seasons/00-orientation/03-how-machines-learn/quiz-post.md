@@ -1,13 +1,24 @@
 # Lesson 0.3: quiz after the lesson
 
 **1. A model scores 100% on its training data but 95% on new data, while a simpler model scores 98% on the same new data. The first model is:**
-A) Underfitting  B) Overfitting  C) Perfect  D) Unsupervised
+
+- A) Underfitting
+- B) Overfitting
+- C) Perfect
+- D) Unsupervised
 
 **2. Grouping customers into segments when you have no labels is:**
-A) Classification  B) Regression  C) Clustering
+
+- A) Classification
+- B) Regression
+- C) Clustering
 
 **3. Which feature of Azure Machine Learning tries many algorithms for you?**
-A) Automated ML  B) Azure Cosmos DB  C) Power BI  D) Azure Data Lake Storage
+
+- A) Automated ML
+- B) Azure Cosmos DB
+- C) Power BI
+- D) Azure Data Lake Storage
 
 <details>
 <summary>Show answers</summary>

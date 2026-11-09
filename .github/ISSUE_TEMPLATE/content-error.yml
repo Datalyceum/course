@@ -27,6 +27,7 @@ body:
     attributes:
       label: Where did you see it?
       options:
+        - Course website
         - GitHub lesson folder
         - Substack lesson post
         - YouTube video
