@@ -23,3 +23,7 @@ Coder? Open [explore-penguins.ipynb](explore-penguins.ipynb) in GitHub Codespace
 ## Think about it
 
 If a penguin's body mass is missing, should you delete that penguin, or fill in a guess? We come back to this in lesson 1.1: Dirty data.
+
+---
+
+Done, or stuck? Compare with the [solutions](solutions.md).

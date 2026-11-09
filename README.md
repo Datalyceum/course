@@ -73,11 +73,11 @@ Most theory lessons need no code. Some have an optional notebook for the Challen
 
 ```
 course/
-├── seasons/          lessons, one folder each: notes, quizzes, homework, notebooks
+├── seasons/          lessons, one folder each: notes, quizzes, homework, solutions, notebooks
+├── pictures/         Learn AI with Pictures: one idea, one picture, free to save and share
 ├── labs/             the hands-on Azure track (later), plus cost and cleanup rules
 ├── data/             small open datasets used in the lessons, with their licences
 ├── exam-maps/        which lessons prepare you for which Microsoft exam
-├── cheatsheets/      one diagram a week, free to save and share
 ├── site/             the course website (datalyceum.com)
 └── .devcontainer/    the setup for GitHub Codespaces
 ```

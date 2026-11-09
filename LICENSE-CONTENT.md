@@ -2,7 +2,7 @@
 
 Copyright (c) 2026 Sedat Salman
 
-The lesson text, quizzes, homework, diagrams, cheat sheets and images in this repository are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** licence (CC BY-NC-SA 4.0).
+The lesson text, quizzes, homework, diagrams, pictures and images in this repository are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** licence (CC BY-NC-SA 4.0).
 
 You are free to:
 

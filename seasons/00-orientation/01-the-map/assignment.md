@@ -17,3 +17,7 @@ Read lesson 1 of Microsoft's free [Data Science for Beginners](https://github.co
 ## Think about it
 
 A spam filter that learns from examples. Which circle on the map does it belong in? We answer this at the start of lesson 0.2.
+
+---
+
+Done, or stuck? Compare with the [solutions](solutions.md).
