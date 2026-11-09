@@ -3,68 +3,78 @@ title: Datalyceum
 description: A free course on AI, data science and big data, with Microsoft Azure. Whiteboard video lessons, notes, quizzes and homework, from zero.
 template: splash
 editUrl: false
+head:
+  - tag: script
+    attrs:
+      type: application/ld+json
+    content: '{"@context":"https://schema.org","@type":"Course","name":"Datalyceum: AI, data science and big data, from zero","description":"A free course on AI, data science and big data, with Microsoft Azure. Whiteboard video lessons, notes, quizzes and homework.","url":"https://datalyceum.com/","inLanguage":"en","isAccessibleForFree":true,"educationalLevel":"Beginner","provider":{"@type":"Organization","name":"Datalyceum","url":"https://datalyceum.com/"}}'
 hero:
   title: Learn AI, data science and big data, from zero
   tagline: A free course with one whiteboard lesson a week, real data, short quizzes and homework, and the place every idea runs on Microsoft Azure. Audio in English, French, Spanish and Japanese.
   image:
-    file: ../../assets/hero-map.jpg
-    alt: The map of AI, machine learning, deep learning, generative AI, data science and big data
+    html: '<a class="dl-hero-card" href="/season-0/lesson-0-3-how-machines-learn/"><img src="/og/l03.jpg" alt="Lesson 0.3: How machines learn" width="1200" height="630" /><span class="dl-hero-card__body"><span class="dl-hero-card__label">Latest lesson</span><span class="dl-hero-card__title">0.3 How machines learn</span><span class="dl-hero-card__meta">Your first model, trained on 342 real penguins</span></span></a>'
   actions:
     - text: Start with Lesson 0.1
       link: /season-0/lesson-0-1-the-map/
       icon: right-arrow
-    - text: Watch on YouTube
-      link: https://www.youtube.com/@datalyceum
-      icon: external
-      variant: minimal
+    - text: Get lessons by email
+      link: https://datalyceum.substack.com
+      icon: substack
+      variant: secondary
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import CardRow from '../../components/CardRow.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import SubscribeBand from '../../components/SubscribeBand.astro';
+import l01 from '../../assets/thumbs/l01.jpg';
+import l02 from '../../assets/thumbs/l02.jpg';
+import l03 from '../../assets/thumbs/l03.jpg';
+import p01 from '../../assets/thumbs/p01.jpg';
+import p02 from '../../assets/thumbs/p02.jpg';
 
-## How every lesson works
-
-<CardGrid>
-  <Card title="1. Watch" icon="youtube">
-    A whiteboard video of about 10 minutes, built on real data. Choose English, French, Spanish or Japanese audio.
-  </Card>
-  <Card title="2. Read" icon="open-book">
-    The notes on this site: the key diagrams, common confusions and where the idea lives in Azure.
-  </Card>
-  <Card title="3. Check" icon="approve-check">
-    A three-question quiz before and after the lesson, so you know it landed.
-  </Card>
-  <Card title="4. Practise" icon="pencil">
-    Homework in three levels, Core, Stretch and Challenge. Stop at any of them.
-  </Card>
-</CardGrid>
+<ul class="dl-facts not-content">
+  <li>Free, no sign-up</li>
+  <li>Real data in every lesson</li>
+  <li>Audio in 4 languages</li>
+  <li>Where it runs on Azure</li>
+</ul>
 
 ## Season 0: Orientation
 
-<CardGrid>
-  <LinkCard title="0.1 The Map" description="AI vs machine learning vs data science vs big data, in one drawing." href="/season-0/lesson-0-1-the-map/" />
-  <LinkCard title="0.2 What is data?" description="Rows, columns and types, with real penguin data." href="/season-0/lesson-0-2-what-is-data/" />
-  <LinkCard title="0.3 How machines learn" description="Your first model, trained on 342 real penguins." href="/season-0/lesson-0-3-how-machines-learn/" />
-</CardGrid>
+The big picture, before any code. Start at 0.1 and go in order.
 
-Next up: **Season 1** starts with dirty data.
+<CardRow>
+  <ContentCard href="/season-0/lesson-0-1-the-map/" image={l01} kicker="Lesson 0.1" title="The Map" description="AI vs machine learning vs data science vs big data, in one drawing." meta="11 min video" />
+  <ContentCard href="/season-0/lesson-0-2-what-is-data/" image={l02} kicker="Lesson 0.2" title="What is data?" description="Rows, columns and types, with real penguin data." meta="8 min video" />
+  <ContentCard href="/season-0/lesson-0-3-how-machines-learn/" image={l03} kicker="Lesson 0.3" title="How machines learn" description="Your first model, trained on 342 real penguins." meta="9 min video" badge="New" />
+</CardRow>
+
+<p class="dl-note">Next up: <strong>Season 1</strong> starts with dirty data. See the whole plan on the <a href="/course-map/">course map</a>.</p>
 
 ## Learn AI with Pictures
 
 One AI idea, one picture, and a video under a minute long. Start anywhere.
 
-<CardGrid>
-  <LinkCard title="#2 How a machine learns" description="Guess, check, adjust, repeat: the loop behind every model." href="/pictures/02-how-a-machine-learns/" />
-  <LinkCard title="#1 Programming vs machine learning" description="A factory motor fails with no alarm. What did the rules miss?" href="/pictures/01-programming-vs-machine-learning/" />
-  <LinkCard title="All pictures" description="The full series, newest first as it grows." href="/pictures/" />
-</CardGrid>
+<CardRow>
+  <ContentCard href="/pictures/02-how-a-machine-learns/" image={p02} kicker="Picture #2" title="How a machine learns" description="Guess, check, adjust, repeat: the loop behind every model." badge="New" />
+  <ContentCard href="/pictures/01-programming-vs-machine-learning/" image={p01} kicker="Picture #1" title="Programming vs machine learning" description="A factory motor fails with no alarm. What did the rules miss?" />
+</CardRow>
+
+<p class="dl-note"><a href="/pictures/">All pictures</a></p>
+
+## How every lesson works
+
+<ol class="dl-steps not-content">
+  <li><span class="dl-steps__n">1</span><span><strong>Watch</strong> a whiteboard video of about 10 minutes, built on real data, in English, French, Spanish or Japanese.</span></li>
+  <li><span class="dl-steps__n">2</span><span><strong>Read</strong> the notes on this site: the key diagrams, common confusions and where the idea lives in Azure.</span></li>
+  <li><span class="dl-steps__n">3</span><span><strong>Check</strong> yourself with a three-question quiz before and after the lesson.</span></li>
+  <li><span class="dl-steps__n">4</span><span><strong>Practise</strong> with homework in three levels, Core, Stretch and Challenge, then compare with the solutions a week later.</span></li>
+</ol>
 
 ## The whole course
 
-Eight theory seasons, from data foundations and big data to machine learning, deep learning and AI agents, then a hands-on track on real Azure. See the [course map](/course-map/).
+Eight theory seasons take you from data foundations and big data to machine learning, deep learning and AI agents. Then a hands-on track opens the real Azure services, with what each one costs and how to switch it off. See the [course map](/course-map/), or get the quizzes, homework, data and notebooks on [GitHub](https://github.com/datalyceum/course).
 
-<CardGrid>
-  <LinkCard title="Get each lesson by email" description="Subscribe free on Substack." href="https://datalyceum.substack.com" />
-  <LinkCard title="Quizzes, homework and data" description="Everything is free on GitHub." href="https://github.com/datalyceum/course" />
-</CardGrid>
+<SubscribeBand />
 
-<small>An independent course, not affiliated with or endorsed by Microsoft. Microsoft and Azure are trademarks of the Microsoft group of companies.</small>
+<p class="dl-small">An independent course, not affiliated with or endorsed by Microsoft. Microsoft and Azure are trademarks of the Microsoft group of companies.</p>

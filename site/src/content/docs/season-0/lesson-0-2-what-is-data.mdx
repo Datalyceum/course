@@ -12,6 +12,7 @@ head:
 ---
 
 import { YouTube } from '@astro-community/astro-embed-youtube';
+import LessonLinks from '../../../components/LessonLinks.astro';
 
 <YouTube id="nUc_-USKENU" title="Lesson 0.2: What is data?" />
 
@@ -145,16 +146,11 @@ You've just answered three of the five questions with a spreadsheet.
 
 ## Check yourself and practise
 
-- **Quiz (3 questions):** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/02-what-is-data/quiz-post.md
-- **Homework in three levels:** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/02-what-is-data/assignment.md
-- **Homework solutions:** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/02-what-is-data/solutions.md
-- **The penguin data:** https://github.com/datalyceum/course/blob/main/data/penguins/penguins.csv
-- **Post your five answers in the homework thread:** https://github.com/datalyceum/course/discussions/4
-- **For coders (optional):** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/02-what-is-data/explore-penguins.ipynb
+<LessonLinks folder="00-orientation/02-what-is-data" thread={4} threadText="Post your five answers for a dataset you care about." post="https://datalyceum.substack.com/p/lesson-02-what-is-data" notebook="explore-penguins.ipynb" notebookText="The five questions in a few lines of Python. Optional." data solutions />
 
 **Question for next time:** if a penguin's body mass is missing, should you delete that penguin, or fill in a guess? We come back to it in Season 1.
 
-**Next lesson:** How machines learn. We use these same penguins to train a first model, explained without code.
+**Next lesson:** [0.3 How machines learn](/season-0/lesson-0-3-how-machines-learn/). We use these same penguins to train a first model.
 
 *Data: Palmer Penguins, collected by Dr. Kristen Gorman and the Palmer Station LTER program, CC0 (Horst, Hill and Gorman, 2020). This is an independent course, not affiliated with or endorsed by Microsoft. Microsoft and Azure are trademarks of the Microsoft group of companies.*
 

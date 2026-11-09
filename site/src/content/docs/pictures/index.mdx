@@ -8,20 +8,24 @@ head:
   - tag: meta
     attrs:
       property: og:image
-      content: https://datalyceum.com/og/pictures-01.jpg
+      content: https://datalyceum.com/og/pictures-02.jpg
 ---
 
-import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import CardRow from '../../../components/CardRow.astro';
+import ContentCard from '../../../components/ContentCard.astro';
+import SubscribeBand from '../../../components/SubscribeBand.astro';
+import p01 from '../../../assets/thumbs/p01.jpg';
+import p02 from '../../../assets/thumbs/p02.jpg';
 
 Learn AI with Pictures explains one AI idea in one picture. You can read each picture in about a minute, and every picture comes with a short video that walks through it, with audio in English, French, Spanish and Japanese.
 
 The pictures stand on their own, so you can start anywhere. When one makes you curious, the full lessons in the [course](/course-map/) go deeper.
 
-<CardGrid>
-  <LinkCard title="#2 How a machine learns" description="A 1959 checkers program and the loop every model learns with." href="/pictures/02-how-a-machine-learns/" />
-  <LinkCard title="#1 Programming vs machine learning" description="A factory motor fails with no alarm. What did the rules miss?" href="/pictures/01-programming-vs-machine-learning/" />
-</CardGrid>
-
-A new picture comes out every week, alongside the lessons. To get them by email, subscribe free on [Substack](https://datalyceum.substack.com).
+<CardRow>
+  <ContentCard href="/pictures/02-how-a-machine-learns/" image={p02} kicker="Picture #2" title="How a machine learns" description="A 1959 checkers program and the loop every model learns with." badge="New" />
+  <ContentCard href="/pictures/01-programming-vs-machine-learning/" image={p01} kicker="Picture #1" title="Programming vs machine learning" description="A factory motor fails with no alarm. What did the rules miss?" />
+</CardRow>
 
 All pictures are free to share with credit, under the [CC BY-NC-SA 4.0 licence](https://github.com/datalyceum/course/blob/main/LICENSE-CONTENT.md).
+
+<SubscribeBand title="A new picture every week" text="Get each picture and lesson by email. Free, unsubscribe any time." />

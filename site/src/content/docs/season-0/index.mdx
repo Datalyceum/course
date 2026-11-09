@@ -1,0 +1,23 @@
+---
+title: 'Season 0: Orientation'
+description: The big picture. Three lessons that give you the map of AI and data, show you what data really is, and how machines learn.
+sidebar:
+  label: Overview
+  order: 0
+---
+
+import CardRow from '../../../components/CardRow.astro';
+import ContentCard from '../../../components/ContentCard.astro';
+import l01 from '../../../assets/thumbs/l01.jpg';
+import l02 from '../../../assets/thumbs/l02.jpg';
+import l03 from '../../../assets/thumbs/l03.jpg';
+
+Season 0 gives you the big picture before any code. Three short lessons, each with a video, notes, a quiz, homework and solutions. Go in order: each lesson builds on the one before.
+
+<CardRow>
+  <ContentCard href="/season-0/lesson-0-1-the-map/" image={l01} kicker="Lesson 0.1" title="The Map" description="AI vs machine learning vs data science vs big data, in one drawing." meta="Azure: where each service fits on the map" />
+  <ContentCard href="/season-0/lesson-0-2-what-is-data/" image={l02} kicker="Lesson 0.2" title="What is data?" description="Rows, columns and types, with real penguin data." meta="Azure: SQL Database, Blob Storage, Cosmos DB" />
+  <ContentCard href="/season-0/lesson-0-3-how-machines-learn/" image={l03} kicker="Lesson 0.3" title="How machines learn" description="Your first model, trained on real penguin data." meta="Azure: Machine Learning, Automated ML" />
+</CardRow>
+
+After Season 0 comes [Season 1: Data foundations](/course-map/#season-1-data-foundations): cleaning data, statistics, probability, charts and the ideas behind SQL.

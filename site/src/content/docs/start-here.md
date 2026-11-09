@@ -16,7 +16,7 @@ You're starting from zero, or you work in IT and want to move into data and AI. 
 | 1. Watch | [YouTube](https://www.youtube.com/@datalyceum) | A whiteboard video of about 10 minutes, built on real data |
 | 2. Read | This site | The key diagrams, common confusions and where the idea lives in Azure |
 | 3. Check | [GitHub](https://github.com/datalyceum/course) | A three-question quiz before and after the lesson |
-| 4. Practise | [GitHub](https://github.com/datalyceum/course) | Homework in three levels: Core, Stretch and Challenge |
+| 4. Practise | [GitHub](https://github.com/datalyceum/course) | Homework in three levels: Core, Stretch and Challenge, with solutions a week later |
 | 5. Share | [Discussions](https://github.com/datalyceum/course/discussions) | Post your homework, ask questions, help others |
 
 A new lesson comes out every week. Short videos during the week recap one idea each.

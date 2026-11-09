@@ -53,8 +53,8 @@ h1#_top::after {
   background: var(--dl-mint);
 }
 
-/* Diagrams: soft frame. */
-.sl-markdown-content img {
+/* Diagrams: soft frame. Cards and other components style their own images. */
+.sl-markdown-content img:not(:where(.not-content *)) {
   border-radius: 10px;
   border: 1px solid var(--sl-color-gray-5);
   box-shadow: 0 2px 10px rgb(15 23 42 / 0.06);
@@ -86,4 +86,240 @@ h1#_top::after {
 /* On narrow screens the hero is centred, so centre its rule too. */
 @media (max-width: 50rem) {
   .hero h1#_top::after { margin-inline: auto; }
+}
+
+
+/* ---------- Shared tokens for the components below ---------- */
+:root {
+  --dl-card-bg: #111c33;
+  --dl-card-border: #22304d;
+  --dl-card-hover: #a78bfa;
+  --dl-muted: #94a3b8;
+  --dl-kicker: #34d399;
+}
+:root[data-theme='light'] {
+  --dl-card-bg: #ffffff;
+  --dl-card-border: #e2e8f0;
+  --dl-card-hover: #7c3aed;
+  --dl-muted: #475569;
+  --dl-kicker: #059669;
+}
+
+/* ---------- Hero: latest lesson card ---------- */
+.dl-hero-card {
+  display: block;
+  max-width: 30rem;
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background: var(--dl-card-bg);
+  border: 1px solid var(--dl-card-border);
+  box-shadow: 0 10px 30px rgb(15 23 42 / 0.12);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.dl-hero-card:hover { transform: translateY(-2px); border-color: var(--dl-card-hover); }
+.dl-hero-card img { display: block; width: 100%; height: auto; }
+.dl-hero-card__body { display: block; padding: 0.9rem 1.1rem 1rem; text-align: start; }
+.dl-hero-card__label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dl-kicker);
+}
+.dl-hero-card__title {
+  display: block;
+  font-family: var(--dl-heading);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--sl-color-white);
+  margin-top: 0.15rem;
+}
+.dl-hero-card__meta { display: block; font-size: 0.9rem; color: var(--dl-muted); margin-top: 0.15rem; }
+
+/* ---------- Facts under the hero ---------- */
+.dl-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+.dl-facts li {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--dl-card-border);
+  color: var(--dl-muted);
+}
+.dl-facts li::before { content: '✓'; color: var(--dl-kicker); margin-inline-end: 0.4rem; font-weight: 600; }
+
+/* ---------- Card grid (lessons and pictures) ---------- */
+.dl-grid {
+  display: grid;
+  /* Up to three cards per row, fewer on narrow screens. */
+  grid-template-columns: repeat(auto-fill, minmax(max(15rem, calc((100% - 2rem) / 3)), 1fr));
+  gap: 1rem;
+  margin-block: 1rem;
+}
+.dl-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--dl-card-bg);
+  border: 1px solid var(--dl-card-border);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.dl-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--dl-card-hover);
+  box-shadow: 0 8px 24px rgb(15 23 42 / 0.12);
+}
+.dl-card:focus-visible { outline: 2px solid var(--sl-color-accent); outline-offset: 2px; }
+.dl-card__media { position: relative; display: block; aspect-ratio: 1200 / 630; overflow: hidden; }
+.dl-card__media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.dl-card__badge {
+  position: absolute;
+  top: 0.6rem;
+  inset-inline-start: 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: #34d399;
+  color: #0f172a;
+}
+.dl-card__body { display: flex; flex-direction: column; gap: 0.25rem; padding: 0.85rem 1rem 1rem; flex: 1; }
+.dl-card__kicker {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dl-kicker);
+}
+.dl-card__title {
+  font-family: var(--dl-heading);
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  color: var(--sl-color-white);
+}
+.dl-card__desc { font-size: 0.9rem; line-height: 1.45; color: var(--dl-muted); }
+.dl-card__meta { margin-top: auto; padding-top: 0.4rem; font-size: 0.8rem; color: var(--dl-muted); }
+
+/* Small text lines between sections. */
+.dl-note { color: var(--dl-muted); }
+.dl-small { font-size: 0.8rem; color: var(--dl-muted); margin-top: 2rem; }
+
+/* ---------- Steps ---------- */
+.dl-steps {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: grid;
+  /* Two steps per row on wide screens, one on phones. */
+  grid-template-columns: repeat(auto-fill, minmax(max(16rem, calc((100% - 1rem) / 2)), 1fr));
+  gap: 1rem;
+}
+.dl-steps li {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--dl-card-border);
+  background: var(--dl-card-bg);
+  line-height: 1.5;
+  font-size: 0.95rem;
+  color: var(--dl-muted);
+}
+.dl-steps li strong { color: var(--sl-color-white); }
+.dl-steps__n {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  background: var(--sl-color-accent-low);
+  color: var(--sl-color-accent-high);
+  font-family: var(--dl-heading);
+  font-weight: 600;
+}
+
+/* ---------- Subscribe band ---------- */
+.dl-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  margin-top: 2.5rem;
+  padding: 1.6rem 1.8rem;
+  border-radius: 16px;
+  background: #0f172a;
+  border: 1px solid #22304d;
+  color: #e2e8f0;
+}
+.dl-band__title { font-family: var(--dl-heading); font-weight: 600; font-size: 1.3rem; color: #ffffff; margin: 0; }
+.dl-band__text { margin: 0.3rem 0 0; color: #94a3b8; }
+.dl-band__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.dl-btn {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.dl-btn--mint { background: #34d399; color: #0f172a; }
+.dl-btn--mint:hover { background: #6ee7b7; color: #0f172a; }
+.dl-btn--ghost { border: 1px solid #475569; color: #e2e8f0; }
+.dl-btn--ghost:hover { border-color: #a78bfa; color: #ffffff; }
+
+/* ---------- Lesson links (end of each lesson) ---------- */
+.dl-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.75rem;
+}
+.dl-links a {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--dl-card-border);
+  background: var(--dl-card-bg);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease;
+}
+.dl-links a:hover { border-color: var(--dl-card-hover); }
+.dl-links__icon { flex: none; color: var(--sl-color-accent); margin-top: 0.1rem; }
+.dl-links__title { display: block; font-weight: 600; color: var(--sl-color-white); }
+.dl-links__text { display: block; font-size: 0.85rem; line-height: 1.4; color: var(--dl-muted); }
+
+/* ---------- Splash page spacing ---------- */
+[data-has-hero] .sl-markdown-content h2 { margin-top: 2.5rem; }
+/* On phones the headline comes first, then the latest lesson card. */
+@media (max-width: 49.99rem) {
+  .hero > .hero-html { order: 2; width: min(100%, 24rem); }
+}
+@media (max-width: 50rem) {
+  .dl-hero-card { margin-inline: auto; }
+  .dl-facts { justify-content: center; }
+  .dl-facts li { font-size: 0.8rem; padding: 0.25rem 0.6rem; }
+  .dl-band { padding: 1.3rem; }
 }

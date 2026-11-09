@@ -12,6 +12,7 @@ head:
 ---
 
 import { YouTube } from '@astro-community/astro-embed-youtube';
+import LessonLinks from '../../../components/LessonLinks.astro';
 
 <YouTube id="-Ct6_TzkdGw" title="Lesson 0.3: How machines learn" />
 
@@ -161,11 +162,7 @@ You just did what the computer did: try a rule, count the errors, keep the best 
 
 ## Check yourself and practise
 
-- **Quiz (3 questions):** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/03-how-machines-learn/quiz-post.md
-- **Homework in three levels:** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/03-how-machines-learn/assignment.md
-- **The penguin data:** https://github.com/datalyceum/course/blob/main/data/penguins/penguins.csv
-- **Post your rule and error count in the homework thread:** https://github.com/datalyceum/course/discussions/5
-- **For coders (optional):** https://github.com/datalyceum/course/blob/main/seasons/00-orientation/03-how-machines-learn/first-model.ipynb. Change `max_depth` to 1, 3 and 5 and watch the test score: 80%, 98%, 95%.
+<LessonLinks folder="00-orientation/03-how-machines-learn" thread={5} threadText="Post your rule and how many penguins it gets wrong." post="https://datalyceum.substack.com/p/lesson-03-how-machines-learn" notebook="first-model.ipynb" notebookText="Train the model yourself, then try max_depth 1, 3 and 5. Optional." data />
 
 **Question for next time:** a model is 99% right on its training data but only 70% right on new data. What happened, and what would you try first?
 

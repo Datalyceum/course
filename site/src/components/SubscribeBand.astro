@@ -1,0 +1,22 @@
+---
+// A dark band that invites people to subscribe.
+interface Props {
+	title?: string;
+	text?: string;
+}
+const {
+	title = 'Get each lesson by email',
+	text = 'One lesson and one picture a week. Free, no spam, unsubscribe any time.',
+} = Astro.props;
+---
+
+<section class="dl-band not-content">
+	<div>
+		<p class="dl-band__title">{title}</p>
+		<p class="dl-band__text">{text}</p>
+	</div>
+	<div class="dl-band__actions">
+		<a class="dl-btn dl-btn--mint" href="https://datalyceum.substack.com">Subscribe on Substack</a>
+		<a class="dl-btn dl-btn--ghost" href="https://www.youtube.com/@datalyceum">YouTube</a>
+	</div>
+</section>

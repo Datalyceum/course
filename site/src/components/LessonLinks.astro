@@ -1,0 +1,45 @@
+---
+// The "check yourself and practise" links at the end of each lesson.
+import { Icon } from '@astrojs/starlight/components';
+
+interface Props {
+	folder: string; // folder under seasons/, for example 00-orientation/03-how-machines-learn
+	thread: number; // Discussions thread number
+	threadText?: string;
+	post: string; // Substack post URL
+	notebook?: string; // notebook file name, if the lesson has one
+	notebookText?: string;
+	solutions?: boolean;
+	data?: boolean;
+}
+
+const { folder, thread, threadText = 'Post your answers and see what others did.', post, notebook, notebookText = 'Run it in GitHub Codespaces. Optional.', solutions = false, data = false } = Astro.props;
+const repo = 'https://github.com/datalyceum/course/blob/main';
+const base = `${repo}/seasons/${folder}`;
+
+const links = [
+	{ icon: 'approve-check', title: 'Quiz', text: 'Three questions, answers included.', href: `${base}/quiz-post.md` },
+	{ icon: 'pencil', title: 'Homework', text: 'Core, Stretch and Challenge. Stop at any level.', href: `${base}/assignment.md` },
+	...(solutions ? [{ icon: 'document', title: 'Solutions', text: 'Try the homework first, then compare.', href: `${base}/solutions.md` }] : []),
+	{ icon: 'comment', title: 'Homework thread', text: threadText, href: `https://github.com/datalyceum/course/discussions/${thread}` },
+	...(notebook ? [{ icon: 'laptop', title: 'Notebook', text: notebookText, href: `${base}/${notebook}` }] : []),
+	...(data ? [{ icon: 'download', title: 'The penguin data', text: 'penguins.csv, 344 rows. Opens in any spreadsheet.', href: `${repo}/data/penguins/penguins.csv` }] : []),
+	{ icon: 'substack', title: 'Read by email', text: 'The same lesson on Substack.', href: post },
+] as const;
+---
+
+<ul class="dl-links not-content">
+	{
+		links.map((l) => (
+			<li>
+				<a href={l.href}>
+					<Icon name={l.icon} size="1.25rem" class="dl-links__icon" />
+					<span>
+						<span class="dl-links__title">{l.title}</span>
+						<span class="dl-links__text">{l.text}</span>
+					</span>
+				</a>
+			</li>
+		))
+	}
+</ul>

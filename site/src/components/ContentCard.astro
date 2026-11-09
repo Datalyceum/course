@@ -1,0 +1,31 @@
+---
+// A card with a thumbnail, used for lessons and pictures.
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+	href: string;
+	image: ImageMetadata;
+	alt?: string;
+	kicker?: string;
+	title: string;
+	description?: string;
+	meta?: string;
+	badge?: string;
+}
+
+const { href, image, alt = '', kicker, title, description, meta, badge } = Astro.props;
+---
+
+<a class="dl-card" href={href}>
+	<span class="dl-card__media">
+		<Image src={image} alt={alt} widths={[360, 560, 800]} sizes="(max-width: 40rem) 100vw, 360px" loading="lazy" />
+		{badge && <span class="dl-card__badge">{badge}</span>}
+	</span>
+	<span class="dl-card__body">
+		{kicker && <span class="dl-card__kicker">{kicker}</span>}
+		<span class="dl-card__title">{title}</span>
+		{description && <span class="dl-card__desc">{description}</span>}
+		{meta && <span class="dl-card__meta">{meta}</span>}
+	</span>
+</a>
