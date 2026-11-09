@@ -22,3 +22,7 @@ Open [first-model.ipynb](first-model.ipynb) in GitHub Codespaces and run it. The
 ## Think about it
 
 Your model is 99% right on the training data and 70% right on new data. What do you think happened, and what would you try first? We come back to this in lesson 3.4.
+
+---
+
+Done, or stuck? Compare with the [solutions](solutions.md).

@@ -4,7 +4,7 @@
 
 | Video | Lesson post | Quizzes | Homework | Notebook |
 |---|---|---|---|---|
-| [Watch on YouTube](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read on Substack](https://datalyceum.substack.com/p/lesson-03-how-machines-learn) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [first-model.ipynb](first-model.ipynb) (optional) |
+| [Watch on YouTube](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read on Substack](https://datalyceum.substack.com/p/lesson-03-how-machines-learn) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) · [Solutions](solutions.md) | [first-model.ipynb](first-model.ipynb) (optional) |
 
 ## What you will be able to do
 
