@@ -8,9 +8,7 @@
 
 **The real failure.** NASA said afterwards that the error itself wasn't the real failure. None of the checks caught it. Label your units, and check them every time data passes from one team to another.
 
-- Watch the one-minute video: https://youtube.com/shorts/Wt5N-J-LO4E
 - Read the full page: https://datalyceum.com/pictures/03-one-number-two-units/
-- Read the post on Substack: https://datalyceum.substack.com/p/learn-ai-with-pictures-3-one-number
 - Go deeper: [Lesson 1.1: Dirty data](../../seasons/01-data-foundations/01-dirty-data)
 
 Sources: Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); IEEE Spectrum, "Why the Mars Probe Went Off Course" (https://spectrum.ieee.org/why-the-mars-probe-went-off-course).

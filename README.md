@@ -41,7 +41,7 @@ A side series: one AI idea in one picture, with a video under a minute long. The
 
 | # | Picture | Video | Post |
 |---|---|---|---|
-| 3 | [One number, two units](pictures/03-one-number-two-units) | [Watch](https://youtube.com/shorts/Wt5N-J-LO4E) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-3-one-number) |
+| 3 | [One number, two units](pictures/03-one-number-two-units) | Out Nov 15 | Out Nov 15 |
 | 2 | [How a machine learns](pictures/02-how-a-machine-learns) | [Watch](https://youtube.com/shorts/O-__d6mncdY) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-2-how-a-machine) |
 | 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-1-programming) |
 
