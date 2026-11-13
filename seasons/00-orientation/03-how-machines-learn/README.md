@@ -51,4 +51,4 @@ You can check every number yourself in [first-model.ipynb](first-model.ipynb).
 
 [assignment.md](assignment.md). Then check yourself with the [after-lesson quiz](quiz-post.md).
 
-**Next:** Season 1 starts with lesson 1.1: Dirty data.
+**Next:** Season 1 starts with [lesson 1.1: Dirty data](../../01-data-foundations/01-dirty-data).

@@ -1,0 +1,64 @@
+---
+title: 'Picture #3: One number, two units'
+description: 'In 1999, NASA lost a $125 million Mars spacecraft because two pieces of software used different units for the same numbers. One picture on why data people label their units.'
+sidebar:
+  label: '#3 One number, two units'
+  order: 3
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/pictures-03.jpg
+---
+
+![One number, two units. True story, 1999: NASA lost the Mars Climate Orbiter, a $125 million spacecraft, because two pieces of software used different units for the same numbers. The handoff: ground software reports thruster firings in pound-force seconds, navigation software reads the same numbers as newton-seconds, and 1 lbf·s equals 4.45 N·s. Every firing looked about 4.45 times weaker than it really was. The planned path stayed safely above the atmosphere; the real path came in far too low. The error alone didn't doom it: none of the checks caught it.](../../../assets/pictures/p03.png)
+
+[Download the full-size picture (PNG)](/pictures/learn-ai-with-pictures-03-one-number-two-units.png) · [Watch on YouTube](https://youtube.com/shorts/VIDEO_ID_P03)
+
+## Watch the one-minute video
+
+Audio in English, French, Spanish and Japanese (on YouTube: Settings → Audio track).
+
+<div style={{ maxWidth: '340px', margin: '1.25rem auto' }}>
+  <div style={{ position: 'relative', aspectRatio: '9 / 16' }}>
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/VIDEO_ID_P03"
+      title="One number, two units: how NASA lost a Mars spacecraft"
+      style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0, borderRadius: '12px' }}
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+## The story
+
+NASA's Mars Climate Orbiter launched in December 1998. After about nine months in space it reached Mars in September 1999, and was lost as it went into orbit.
+
+On the way, small thruster firings nudged its path, and the team on the ground tracked every one. One piece of ground software reported the size of those firings in **pound-force seconds** (lbf·s). The navigation software read the same numbers as **newton-seconds** (N·s), the unit the contract asked for.
+
+One pound-force second is about 4.45 newton-seconds. So every firing looked about 4.45 times weaker than it really was, the small errors added up over the months, and the orbiter arrived far too low. It dipped into the Martian atmosphere and was lost.
+
+## The real failure
+
+The investigation traced the loss to the unit mix-up. But NASA's message afterwards was that the error itself wasn't the real failure. People make mistakes. The failure was that none of the checks between the teams caught it.
+
+## What it means for data
+
+Every dataset is a handoff. Someone measured, someone typed, someone exported, and now you're reading it. A number without a unit is a guess about what the sender meant.
+
+- **Label your units** in column names or in a data dictionary: `body_mass_g`, not `mass`.
+- **Check units at every handoff,** especially when data moves between teams, tools or countries.
+- **Look at the range.** A column of penguin weights between 2.7 and 6.3 is probably kilograms; between 2,700 and 6,300, grams. A column with both is a problem.
+
+## Go deeper
+
+- [Lesson 1.1: Dirty data](/season-1/lesson-1-1-dirty-data/) covers missing values, duplicates, outliers and labels written in different ways, on a messy copy of the penguin data.
+- [Picture #2: How a machine learns](/pictures/02-how-a-machine-learns/) shows the loop every model learns with.
+
+*Sources: Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); [IEEE Spectrum, "Why the Mars Probe Went Off Course"](https://spectrum.ieee.org/why-the-mars-probe-went-off-course). Free to share with credit: "Datalyceum, datalyceum.com", under the [CC BY-NC-SA 4.0 licence](https://github.com/datalyceum/course/blob/main/LICENSE-CONTENT.md).*
+
+---
+
+Prefer email? This picture is also on [Substack](https://datalyceum.substack.com/p/learn-ai-with-pictures-3-one-number). New pictures and lessons come out every week.

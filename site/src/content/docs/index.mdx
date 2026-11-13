@@ -12,7 +12,7 @@ hero:
   title: Learn AI, data science and big data, from zero
   tagline: A free course with one whiteboard lesson a week, real data, short quizzes and homework, and where each idea runs on Microsoft Azure. Audio in English, French, Spanish and Japanese.
   image:
-    html: '<a class="dl-hero-card" href="/season-0/lesson-0-3-how-machines-learn/"><img src="/og/l03.jpg" alt="Lesson 0.3: How machines learn" width="1200" height="630" /><span class="dl-hero-card__body"><span class="dl-hero-card__label">Latest lesson</span><span class="dl-hero-card__title">0.3 How machines learn</span><span class="dl-hero-card__meta">Your first model, trained on 342 real penguins</span></span></a>'
+    html: '<a class="dl-hero-card" href="/season-1/lesson-1-1-dirty-data/"><img src="/og/l11.jpg" alt="Lesson 1.1: Dirty data" width="1200" height="630" /><span class="dl-hero-card__body"><span class="dl-hero-card__label">Latest lesson</span><span class="dl-hero-card__title">1.1 Dirty data</span><span class="dl-hero-card__meta">Missing values, duplicates and outliers, on real data</span></span></a>'
   actions:
     - text: Start with Lesson 0.1
       link: /season-0/lesson-0-1-the-map/
@@ -31,6 +31,8 @@ import l02 from '../../assets/thumbs/l02.jpg';
 import l03 from '../../assets/thumbs/l03.jpg';
 import p01 from '../../assets/thumbs/p01.jpg';
 import p02 from '../../assets/thumbs/p02.jpg';
+import p03 from '../../assets/thumbs/p03.jpg';
+import l11 from '../../assets/thumbs/l11.jpg';
 
 <ul class="dl-facts not-content">
   <li>Free, no sign-up</li>
@@ -46,17 +48,26 @@ The big picture, before any code. Start at 0.1 and go in order.
 <CardRow>
   <ContentCard href="/season-0/lesson-0-1-the-map/" image={l01} kicker="Lesson 0.1" title="The Map" description="AI vs machine learning vs data science vs big data, in one drawing." meta="11 min video" />
   <ContentCard href="/season-0/lesson-0-2-what-is-data/" image={l02} kicker="Lesson 0.2" title="What is data?" description="Rows, columns and types, with real penguin data." meta="8 min video" />
-  <ContentCard href="/season-0/lesson-0-3-how-machines-learn/" image={l03} kicker="Lesson 0.3" title="How machines learn" description="Your first model, trained on 342 real penguins." meta="9 min video" badge="New" />
+  <ContentCard href="/season-0/lesson-0-3-how-machines-learn/" image={l03} kicker="Lesson 0.3" title="How machines learn" description="Your first model, trained on 342 real penguins." meta="9 min video" />
 </CardRow>
 
-<p class="dl-note">Next up: <strong>Season 1</strong> starts with dirty data. See the whole plan on the <a href="/course-map/">course map</a>.</p>
+## Season 1: Data foundations
+
+Cleaning data, statistics, probability, honest charts and the ideas behind SQL. One new lesson a week.
+
+<CardRow>
+  <ContentCard href="/season-1/lesson-1-1-dirty-data/" image={l11} kicker="Lesson 1.1" title="Dirty data" description="Missing values, duplicates and outliers, on a messy copy of the penguin data." meta="9 min video" badge="New" />
+</CardRow>
+
+<p class="dl-note">Next up: 1.2 Statistics 1: averages, spread and distributions. See the whole plan on the <a href="/course-map/">course map</a>.</p>
 
 ## Learn AI with Pictures
 
 One AI idea, one picture, and a video under a minute long. Start anywhere.
 
 <CardRow>
-  <ContentCard href="/pictures/02-how-a-machine-learns/" image={p02} kicker="Picture #2" title="How a machine learns" description="Guess, check, adjust, repeat: the loop behind every model." badge="New" />
+  <ContentCard href="/pictures/03-one-number-two-units/" image={p03} kicker="Picture #3" title="One number, two units" description="How NASA lost a Mars spacecraft to a units mix-up." badge="New" />
+  <ContentCard href="/pictures/02-how-a-machine-learns/" image={p02} kicker="Picture #2" title="How a machine learns" description="Guess, check, adjust, repeat: the loop behind every model." />
   <ContentCard href="/pictures/01-programming-vs-machine-learning/" image={p01} kicker="Picture #1" title="Programming vs machine learning" description="A factory motor fails with no alarm. What did the rules miss?" />
 </CardRow>
 

@@ -33,6 +33,7 @@ A new lesson comes out every week. Short videos during the week recap one idea e
 | 0.1 | The Map: AI vs machine learning vs data science vs big data | [Watch](https://www.youtube.com/watch?v=zhgfQalHFfs) | [Read](https://datalyceum.substack.com/p/lesson-01-the-map) | [Open](seasons/00-orientation/01-the-map) |
 | 0.2 | What is data? Rows, columns and types, with real penguin data | [Watch](https://www.youtube.com/watch?v=nUc_-USKENU) | [Read](https://datalyceum.substack.com/p/lesson-02-what-is-data) | [Open](seasons/00-orientation/02-what-is-data) |
 | 0.3 | How machines learn: your first model, trained on real penguin data | [Watch](https://www.youtube.com/watch?v=-Ct6_TzkdGw) | [Read](https://datalyceum.substack.com/p/lesson-03-how-machines-learn) | [Open](seasons/00-orientation/03-how-machines-learn) |
+| 1.1 | Dirty data: missing values, duplicates and outliers | [Watch](https://www.youtube.com/watch?v=VIDEO_ID_L11) | [Read](https://datalyceum.substack.com/p/lesson-11-dirty-data) | [Open](seasons/01-data-foundations/01-dirty-data) |
 
 ## Learn AI with Pictures
 
@@ -40,6 +41,7 @@ A side series: one AI idea in one picture, with a video under a minute long. The
 
 | # | Picture | Video | Post |
 |---|---|---|---|
+| 3 | [One number, two units](pictures/03-one-number-two-units) | [Watch](https://youtube.com/shorts/VIDEO_ID_P03) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-3-one-number) |
 | 2 | [How a machine learns](pictures/02-how-a-machine-learns) | [Watch](https://youtube.com/shorts/O-__d6mncdY) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-2-how-a-machine) |
 | 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-1-programming) |
 
@@ -50,7 +52,7 @@ The course has two tracks. First the theory, then the hands-on track on real Azu
 | Season | Topic | Lessons | Where it lives in Azure | Status |
 |---|---|---|---|---|
 | 0 | Orientation: the big picture | 3 | Where each Azure service fits | Out now |
-| 1 | Data foundations | 6 | Azure SQL Database, Power BI in Microsoft Fabric | Coming |
+| 1 | Data foundations | 6 | Microsoft Fabric, Power BI, Azure SQL Database | Out now: 1.1 |
 | 2 | Big data | 5 | Azure Data Lake Storage, Microsoft Fabric, Azure Databricks | Coming |
 | | First look lab: Python and your first AI model call | 2 | GitHub Codespaces, Microsoft Foundry | Coming |
 | 3 | Machine learning | 7 | Azure Machine Learning | Coming |

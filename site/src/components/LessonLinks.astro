@@ -11,9 +11,10 @@ interface Props {
 	notebookText?: string;
 	solutions?: boolean;
 	data?: boolean;
+	messy?: boolean; // the messy practice copy of the penguin data
 }
 
-const { folder, thread, threadText = 'Post your answers and see what others did.', post, notebook, notebookText = 'Run it in GitHub Codespaces. Optional.', solutions = false, data = false } = Astro.props;
+const { folder, thread, threadText = 'Post your answers and see what others did.', post, notebook, notebookText = 'Run it in GitHub Codespaces. Optional.', solutions = false, data = false, messy = false } = Astro.props;
 const repo = 'https://github.com/datalyceum/course/blob/main';
 const base = `${repo}/seasons/${folder}`;
 
@@ -24,6 +25,7 @@ const links = [
 	{ icon: 'comment', title: 'Homework thread', text: threadText, href: `https://github.com/datalyceum/course/discussions/${thread}` },
 	...(notebook ? [{ icon: 'laptop', title: 'Notebook', text: notebookText, href: `${base}/${notebook}` }] : []),
 	...(data ? [{ icon: 'download', title: 'The penguin data', text: 'penguins.csv, 344 rows. Opens in any spreadsheet.', href: `${repo}/data/penguins/penguins.csv` }] : []),
+	...(messy ? [{ icon: 'download', title: 'The messy penguin data', text: 'penguins-messy.csv, 348 rows, problems added on purpose.', href: `${repo}/data/penguins/penguins-messy.csv` }] : []),
 	{ icon: 'substack', title: 'Read by email', text: 'The same lesson on Substack.', href: post },
 ] as const;
 ---

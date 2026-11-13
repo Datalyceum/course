@@ -39,6 +39,10 @@ export default defineConfig({
           items: [{ autogenerate: { directory: 'season-0' } }],
         },
         {
+          label: 'Season 1: Data foundations',
+          items: [{ autogenerate: { directory: 'season-1' } }],
+        },
+        {
           label: 'Learn AI with Pictures',
           items: [{ autogenerate: { directory: 'pictures' } }],
         },
