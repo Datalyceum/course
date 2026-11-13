@@ -1,0 +1,27 @@
+---
+title: One Idea, Three Levels
+description: One topic explained at three levels, basic, intermediate and advanced, in three short videos released the same week.
+sidebar:
+  label: Overview
+  order: 0
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/levels-01.jpg
+---
+
+import CardRow from '../../../components/CardRow.astro';
+import ContentCard from '../../../components/ContentCard.astro';
+import SubscribeBand from '../../../components/SubscribeBand.astro';
+import lv1 from '../../../assets/thumbs/lv1.jpg';
+
+One Idea, Three Levels takes one topic and explains it three times. Level 1 is the big picture with no maths and no code. Level 2 opens the main parts. Level 3 goes all the way down, and shows where it runs on Azure.
+
+The three videos come out in the same week, on Tuesday, Thursday and Saturday. Watch the one that fits you, or all three in order.
+
+<CardRow>
+  <ContentCard href="/levels/how-chatgpt-works/" image={lv1} kicker="Topic #1" title="How ChatGPT works" description="A next-word guesser, then tokens and attention, then the transformer under the hood." badge="New" />
+</CardRow>
+
+<SubscribeBand title="A new idea, at three levels" text="Get each video and lesson by email. Free, unsubscribe any time." />

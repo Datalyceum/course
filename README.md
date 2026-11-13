@@ -45,6 +45,14 @@ A side series: one AI idea in one picture, with a video under a minute long. The
 | 2 | [How a machine learns](pictures/02-how-a-machine-learns) | [Watch](https://youtube.com/shorts/O-__d6mncdY) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-2-how-a-machine) |
 | 1 | [Programming vs machine learning](pictures/01-programming-vs-machine-learning) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) | [Read](https://datalyceum.substack.com/p/learn-ai-with-pictures-1-programming) |
 
+## One Idea, Three Levels
+
+A side series: one topic explained at three levels, basic, intermediate and advanced, in three videos released the same week. Notes are in [levels/](levels) and on the [website](https://datalyceum.com/levels/).
+
+| # | Topic | Level 1 | Level 2 | Level 3 |
+|---|---|---|---|---|
+| 1 | [How ChatGPT works](levels/01-how-chatgpt-works) | Out Nov 17 | Out Nov 19 | Out Nov 21 |
+
 ## The course map
 
 The course has two tracks. First the theory, then the hands-on track on real Azure. The full episode list is in [seasons/README.md](seasons/README.md).
@@ -77,6 +85,7 @@ Most theory lessons need no code. Some have an optional notebook for the Challen
 course/
 ├── seasons/          lessons, one folder each: notes, quizzes, homework, solutions, notebooks
 ├── pictures/         Learn AI with Pictures: one idea, one picture, free to save and share
+├── levels/           One Idea, Three Levels: one topic at a basic, intermediate and advanced level
 ├── labs/             the hands-on Azure track (later), plus cost and cleanup rules
 ├── data/             small open datasets used in the lessons, with their licences
 ├── exam-maps/        which lessons prepare you for which Microsoft exam

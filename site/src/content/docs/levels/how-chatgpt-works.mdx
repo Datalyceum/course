@@ -1,0 +1,92 @@
+---
+title: How ChatGPT works, at three levels
+description: 'How ChatGPT works, explained three times: simply, then tokens and attention, then the transformer under the hood. Three videos, with notes and something to try for each level.'
+sidebar:
+  label: '#1 How ChatGPT works'
+  order: 1
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/levels-01.jpg
+---
+
+ChatGPT explained three times, each time a level deeper. Start with the level that fits you and move up when you're ready. Every video has audio in English, French, Spanish and Japanese (on YouTube: Settings → Audio track).
+
+| Level | What you get | Length |
+|---|---|---|
+| [1, Basic](#level-1-explained-simply) | The big picture. No maths, no code. | 3 min |
+| [2, Intermediate](#level-2-tokens-and-attention) | Tokens, embeddings, attention, temperature | 5 min |
+| [3, Advanced](#level-3-under-the-hood) | Queries, keys and values, layers, training, Azure | 7 min |
+
+## Level 1: explained simply
+
+<div style={{ position: 'relative', aspectRatio: '16 / 9', margin: '1.25rem 0' }}>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/uqCt5UGnlCY"
+    title="How ChatGPT works, explained simply (Level 1 of 3)"
+    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0, borderRadius: '12px' }}
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
+
+- ChatGPT reads your words and guesses what comes next. Not the whole answer, just the next word. Then it adds that word and guesses again.
+- It got good at guessing by reading a huge amount of text and playing one game billions of times: hide the next word, guess it, check, adjust.
+- After that, people rated its answers, and it learned to give the kind they preferred.
+- It gives the answer that sounds most likely. Usually that's also true. Not always, so check any fact that matters.
+
+**Try this:** ask a chatbot to finish "penguins live in" five times. Do you get the same answer every time? Level 2 explains why not.
+
+## Level 2: tokens and attention
+
+{/* LEVEL2_VIDEO */}
+*The Level 2 video comes out on Thursday, 19 November.*
+
+Each guess takes four steps:
+
+1. **Tokens.** The text is split into tokens, which are whole words or pieces of words. In English a token is about three quarters of a word, so 1,000 tokens is roughly 750 words. Limits and prices are counted in tokens.
+2. **Numbers.** Each token becomes a long list of numbers, its embedding. Tokens with similar meanings get nearby addresses on a huge map of meaning.
+3. **Attention.** Every token looks at the other tokens and decides which ones matter for its meaning. In "the penguin dived because it was hungry", the word *it* pays the most attention to *penguin*.
+4. **Picking.** The model gives every token a probability, and a setting called temperature decides how adventurous the pick is. That's why the same question can get a different answer each time.
+
+The numbers come from training in two stages: pre-training on a huge amount of text, then fine-tuning with example answers and human rankings. The model only sees a limited number of tokens at once, its context window, so in a very long chat the oldest parts can fall out of view.
+
+**Try this:** paste a paragraph into a free online tokenizer and count the tokens. Long or unusual words split into more pieces.
+
+## Level 3: under the hood
+
+{/* LEVEL3_VIDEO */}
+*The Level 3 video comes out on Saturday, 21 November.*
+
+We follow one sentence through a transformer, the T in GPT:
+
+- **From token to vector.** Each token ID picks a row from a learned table of embeddings. In GPT-3 the biggest version used 12,288 numbers per token. Each token's position is added too, so word order counts.
+- **Queries, keys and values.** Each token makes three vectors by multiplying its embedding by three learned matrices. A token compares its query with every key using a dot product, the scores are divided by the square root of the vector length, and softmax turns them into weights that add up to one. The output is the weighted mix of the values.
+- **No peeking ahead.** In GPT, a token can only look at the tokens before it, so during training it can't see the word it's meant to guess.
+- **Heads and layers.** Several attention heads run side by side, then a small feed-forward network, and that makes one layer. GPT-3 stacked 96 layers and had 175 billion parameters.
+- **The last step.** The last token's vector becomes one score for every token in the vocabulary, about 50,000 in GPT-3 and about 200,000 in newer OpenAI models. Softmax and temperature turn the scores into probabilities, one token is picked, and the model runs again. That's why long answers take longer and output tokens usually cost more.
+- **Training.** The loss measures how surprised the model was by the real next token, and gradient descent nudges the parameters to make that surprise smaller. Then reinforcement learning from human feedback tunes it toward answers people prefer.
+- **Why it makes things up.** Training rewards the most likely next token, not the true one. Giving it the facts in the prompt (RAG), asking for sources and using a low temperature all help, but checking is still your job.
+- **On Azure.** In Microsoft Foundry you can deploy OpenAI's GPT models and call them from your own app, pay per token, rely on content filters in and out, and connect your own documents for RAG with Azure AI Search.
+
+**Try this:** in the Foundry playground, or any chatbot playground, ask the same question at temperature 0 and at temperature 1, and compare the answers.
+
+## Words to know
+
+- **Token:** a word or a piece of a word, the unit the model reads and writes.
+- **Embedding:** the list of numbers that stands for a token.
+- **Attention:** how each token decides which other tokens matter for its meaning.
+- **Transformer:** the model design built around attention, from the 2017 paper *Attention Is All You Need*.
+- **Temperature:** the setting that makes picks safer (low) or more varied (high).
+- **Context window:** how many tokens the model can see at once.
+- **Parameter:** one learned number inside the model.
+- **RAG:** retrieval-augmented generation, giving the model the facts it needs inside the prompt.
+
+## Sources
+
+- Vaswani and others (2017), [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
+- Brown and others (2020), [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), the GPT-3 paper.
+
+ChatGPT and GPT are trademarks of OpenAI. Microsoft, Azure and Microsoft Foundry are trademarks of the Microsoft group of companies. Datalyceum is independent and not affiliated with either.

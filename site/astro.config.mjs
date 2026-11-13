@@ -46,6 +46,10 @@ export default defineConfig({
           label: 'Learn AI with Pictures',
           items: [{ autogenerate: { directory: 'pictures' } }],
         },
+        {
+          label: 'One Idea, Three Levels',
+          items: [{ autogenerate: { directory: 'levels' } }],
+        },
         { label: 'About', slug: 'about' },
       ],
     }),
