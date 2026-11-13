@@ -4,7 +4,7 @@
 
 | Video | Lesson post | Quizzes | Homework | Notebook |
 |---|---|---|---|---|
-| [Watch on YouTube](https://www.youtube.com/watch?v=vayeh_jzbcM) | [Read on Substack](https://datalyceum.substack.com/p/lesson-11-dirty-data) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) | [clean-penguins.ipynb](clean-penguins.ipynb) (optional) |
+| [Watch on YouTube](https://www.youtube.com/watch?v=vayeh_jzbcM) | [Read on Substack](https://datalyceum.substack.com/p/lesson-11-dirty-data) | [Before](quiz-pre.md) · [After](quiz-post.md) | [assignment.md](assignment.md) · [Solutions](solutions.md) | [clean-penguins.ipynb](clean-penguins.ipynb) (optional) |
 
 ## What you will be able to do
 
