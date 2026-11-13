@@ -39,3 +39,7 @@ Want to do it in code? [clean-penguins.ipynb](clean-penguins.ipynb) runs every s
 ## Think about it
 
 The average penguin weighs 4,202 g. Is there really a typical penguin, when the file holds three species? We come back to this in lesson 1.2.
+
+---
+
+Done, or stuck? Compare with the [solutions](solutions.md).
