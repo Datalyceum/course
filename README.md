@@ -59,8 +59,8 @@ Short, practical guides next to the course: which tool to pick, what a word mean
 
 | # | Guide | Video |
 |---|---|---|
-| 1 | [Which AI model fits you?](guides/01-which-ai-model) | Out Nov 24 |
-| 2 | [Every AI term on one map](guides/02-ai-map) | Out Dec 1 |
+| 1 | [Which AI model fits you?](guides/01-which-ai-model) | Out Nov 19 |
+| 2 | [Every AI term on one map](guides/02-ai-map) | Out Nov 20 |
 
 ## The course map
 
