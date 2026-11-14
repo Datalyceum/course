@@ -2,7 +2,7 @@
 
 "Which AI model is the best?" is the wrong question. The right one is: best for what? Four questions and one chart help you pick the kind of model that fits you.
 
-Video: out Tuesday, 24 November · Notes on the website: [datalyceum.com/guides/which-ai-model](https://datalyceum.com/guides/which-ai-model/)
+Video: out Thursday, 19 November · Notes on the website: [datalyceum.com/guides/which-ai-model](https://datalyceum.com/guides/which-ai-model/)
 
 ## The four questions
 
