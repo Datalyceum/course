@@ -1,0 +1,79 @@
+---
+title: Which AI model fits you?
+description: 'How to pick an AI model without a leaderboard: four questions (what for, where your data can go, budget, speed or depth), one chart, and the model families as of November 2026.'
+sidebar:
+  label: '#1 Which AI model fits you?'
+  order: 1
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/guides-01.jpg
+---
+
+"Which AI model is the best?" is the wrong question. The right one is: best for what? A model that's great at writing code can be the wrong pick for reading your company's contracts. Answer four questions and the choice gets much easier. The video has audio in English, French, Spanish and Japanese (on YouTube: Settings → Audio track).
+
+{/* GUIDE01_VIDEO */}
+*The video comes out on Tuesday, 24 November.*
+
+## First: apps and models
+
+ChatGPT, Gemini, Claude, Copilot and Meta AI are apps. Inside each one is a model, the engine that writes the answers. Some apps let you switch models, and the same model can sit in many apps.
+
+Each model family comes in sizes. A big model thinks harder, but it's slower and costs more. A small one is quick and cheap. Many apps also have two modes: a fast one for everyday questions and a thinking mode for hard problems.
+
+## Question 1: what will you use it for?
+
+| If you mostly... | Look for |
+|---|---|
+| write, summarise and ask everyday questions | any of the big assistants; start with a free plan, the differences are small |
+| write code | a model that does well on coding tests, used inside your code editor |
+| work with long documents | a big context window: how much text the model can read at once |
+| work with images, voice or video | a multimodal model, one that understands more than text |
+| research | an app that searches the web and shows its sources |
+
+## Question 2: where can your data go?
+
+This one matters more than any leaderboard.
+
+- **Public or personal things:** any app is fine. Check the settings to see whether your chats are used for training.
+- **Company data:** a business plan with data protection, or your company's own cloud. Microsoft Foundry on Azure, for example, offers models from OpenAI, Anthropic, Meta, Mistral, DeepSeek and xAI inside your company's Azure account.
+- **Data that must never leave the building:** an open-weight model. You download the model file and run it on your own computer or server.
+
+Open weight doesn't always mean free for any use. Each model has its own licence, so read it before you build a product on it.
+
+## Question 3: what's your budget?
+
+- **Learning and light use:** free plans are enough.
+- **Daily work:** a monthly subscription gets you the bigger models and higher limits.
+- **Your own app:** you pay per token, for every piece of text in and out. Small models cost a fraction of big ones, so a common trick is to send easy questions to a small model and only the hard ones to a big one.
+- **Running a model yourself:** the software is free. The computer is the cost.
+
+## Question 4: speed or depth?
+
+Thinking models take longer and use more tokens, but they do better at maths, planning, tricky code and tasks with many steps. Fast models suit chat, quick summaries and jobs you run thousands of times, like sorting support emails.
+
+## The chart
+
+1. **Where can your data go?** Can't leave: an open-weight model on your own machine. Company data: your company's cloud or a business plan. Everything else: start with a free assistant.
+2. **Then pick the size:** a thinking model for hard problems, a small, fast one for volume.
+
+## The names, as of November 2026
+
+| Closed families | Open-weight families |
+|---|---|
+| GPT (OpenAI) | Qwen (Alibaba) |
+| Claude (Anthropic) | DeepSeek |
+| Gemini (Google) | Mistral |
+| Grok (xAI) | Gemma (Google) |
+| Muse (Meta) | Llama (Meta) |
+| | Phi (Microsoft) |
+| | gpt-oss (OpenAI) |
+
+To try a small open model on a laptop, free tools like [Ollama](https://ollama.com) and [LM Studio](https://lmstudio.ai) get you going in minutes. A laptop with 16 GB of memory can run the smaller models.
+
+New versions come out every few weeks, so check a live leaderboard, such as [Arena](https://arena.ai/leaderboard), before you decide. The families change much more slowly than the version numbers.
+
+**Try this:** take three real tasks from your week, run them in two or three models, and keep the one that does them best.
+
+*ChatGPT, GPT and gpt-oss are trademarks of OpenAI. Claude is a trademark of Anthropic. Gemini and Gemma are trademarks of Google. Microsoft, Azure, Copilot, Phi and Microsoft Foundry are trademarks of the Microsoft group of companies. Other names belong to their owners. Datalyceum is independent and not affiliated with any of them.*

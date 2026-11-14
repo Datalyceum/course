@@ -1,0 +1,25 @@
+---
+title: Datalyceum guides
+description: Short, practical guides that help you choose and find your way in AI. Each one is a video with notes.
+sidebar:
+  label: Overview
+  order: 0
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/guides-01.jpg
+---
+
+import CardRow from '../../../components/CardRow.astro';
+import ContentCard from '../../../components/ContentCard.astro';
+import SubscribeBand from '../../../components/SubscribeBand.astro';
+import g01 from '../../../assets/thumbs/g01.jpg';
+
+The guides answer practical questions that come up next to the course: which tool to pick, what a word means, where to start. Each guide is one short video with notes you can come back to.
+
+<CardRow>
+  <ContentCard href="/guides/which-ai-model/" image={g01} kicker="Guide #1" title="Which AI model fits you?" description="Four questions and one chart, then the names as of November 2026." badge="New" />
+</CardRow>
+
+<SubscribeBand title="New guides by email" text="Get each video and lesson by email. Free, unsubscribe any time." />
