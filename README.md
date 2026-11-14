@@ -53,6 +53,14 @@ A side series: one topic explained at three levels, basic, intermediate and adva
 |---|---|---|---|---|
 | 1 | [How ChatGPT works](levels/01-how-chatgpt-works) | Out Nov 17 | Out Nov 19 | Out Nov 21 |
 
+## Guides
+
+Short, practical guides next to the course: which tool to pick, what a word means, where to start. Notes are in [guides/](guides) and on the [website](https://datalyceum.com/guides/).
+
+| # | Guide | Video |
+|---|---|---|
+| 1 | [Which AI model fits you?](guides/01-which-ai-model) | Out Nov 24 |
+
 ## The course map
 
 The course has two tracks. First the theory, then the hands-on track on real Azure. The full episode list is in [seasons/README.md](seasons/README.md).

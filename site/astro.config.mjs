@@ -50,6 +50,10 @@ export default defineConfig({
           label: 'One Idea, Three Levels',
           items: [{ autogenerate: { directory: 'levels' } }],
         },
+        {
+          label: 'Guides',
+          items: [{ autogenerate: { directory: 'guides' } }],
+        },
         { label: 'About', slug: 'about' },
       ],
     }),
