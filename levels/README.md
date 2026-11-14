@@ -6,6 +6,6 @@ Every video has audio in English, French, Spanish and Japanese, and subtitles in
 
 | # | Topic | Level 1 | Level 2 | Level 3 |
 |---|---|---|---|---|
-| 1 | [How ChatGPT works](01-how-chatgpt-works) | Out Nov 17 | Out Nov 19 | Out Nov 21 |
+| 1 | [How ChatGPT works](01-how-chatgpt-works) | Out Nov 16 | Out Nov 17 | Out Nov 18 |
 
 On the website: [datalyceum.com/levels](https://datalyceum.com/levels/)
