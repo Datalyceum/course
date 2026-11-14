@@ -2,7 +2,7 @@
 
 AI, machine learning, LLMs, RAG, agents, MCP: there's a new word every week. This guide puts about 40 of them on one map, with one line each, and ends with what to learn first for your goal.
 
-Video: out Tuesday, 1 December · Notes on the website: [datalyceum.com/guides/ai-map](https://datalyceum.com/guides/ai-map/)
+Video: out Friday, 20 November · Notes on the website: [datalyceum.com/guides/ai-map](https://datalyceum.com/guides/ai-map/)
 
 ![The full map](ai-map.jpg)
 
