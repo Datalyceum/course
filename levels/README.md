@@ -1,6 +1,6 @@
 # One Idea, Three Levels
 
-One topic, explained three times. Level 1 is the big picture with no maths and no code. Level 2 opens the main parts. Level 3 goes all the way down and shows where it runs on Azure. The three videos come out in the same week, on Tuesday, Thursday and Saturday.
+One topic, explained three times. Level 1 is the big picture with no maths and no code. Level 2 opens the main parts. Level 3 goes all the way down and shows where it runs on Azure. The three videos come out on three days in a row, Monday to Wednesday.
 
 Every video has audio in English, French, Spanish and Japanese, and subtitles in all four.
 
