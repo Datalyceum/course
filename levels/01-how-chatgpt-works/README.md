@@ -4,9 +4,9 @@ ChatGPT explained three times, each time a level deeper. Start with the level th
 
 | Level | What you get | Length | Video |
 |---|---|---|---|
-| 1, Basic | The big picture. No maths, no code. | 3 min | Out Nov 17 |
-| 2, Intermediate | Tokens, embeddings, attention, temperature | 5 min | Out Nov 19 |
-| 3, Advanced | Queries, keys and values, layers, training, Azure | 7 min | Out Nov 21 |
+| 1, Basic | The big picture. No maths, no code. | 3 min | Out Nov 16 |
+| 2, Intermediate | Tokens, embeddings, attention, temperature | 5 min | Out Nov 17 |
+| 3, Advanced | Queries, keys and values, layers, training, Azure | 7 min | Out Nov 18 |
 
 Notes on the website: [datalyceum.com/levels/how-chatgpt-works](https://datalyceum.com/levels/how-chatgpt-works/)
 
