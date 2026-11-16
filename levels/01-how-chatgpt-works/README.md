@@ -4,7 +4,7 @@ ChatGPT explained three times, each time a level deeper. Start with the level th
 
 | Level | What you get | Length | Video |
 |---|---|---|---|
-| 1, Basic | The big picture. No maths, no code. | 3 min | Out Nov 16 |
+| 1, Basic | The big picture. No maths, no code. | 3 min | [Watch](https://www.youtube.com/watch?v=0RdT5O7c0aI) |
 | 2, Intermediate | Tokens, embeddings, attention, temperature | 5 min | Out Nov 17 |
 | 3, Advanced | Queries, keys and values, layers, training, Azure | 7 min | Out Nov 18 |
 

@@ -51,7 +51,7 @@ A side series: one topic explained at three levels, basic, intermediate and adva
 
 | # | Topic | Level 1 | Level 2 | Level 3 |
 |---|---|---|---|---|
-| 1 | [How ChatGPT works](levels/01-how-chatgpt-works) | Out Nov 16 | Out Nov 17 | Out Nov 18 |
+| 1 | [How ChatGPT works](levels/01-how-chatgpt-works) | [Watch](https://www.youtube.com/watch?v=0RdT5O7c0aI) | Out Nov 17 | Out Nov 18 |
 
 ## The course map
 
