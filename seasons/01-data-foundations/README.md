@@ -5,7 +5,7 @@ The skills every AI and data project rests on: cleaning data, describing it with
 | # | Lesson | Folder |
 |---|---|---|
 | 1.1 | Dirty data: missing values, duplicates and outliers | [01-dirty-data](01-dirty-data) |
-| 1.2 | Statistics 1: averages, spread and distributions | Coming |
+| 1.2 | Statistics 1: averages, spread and distributions | [02-averages-and-spread](02-averages-and-spread) |
 | 1.3 | Statistics 2: correlation, causation, sampling and bias | Coming |
 | 1.4 | Probability for AI: chance and "how sure is the model?" | Coming |
 | 1.5 | Charts that tell the truth | Coming |
