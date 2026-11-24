@@ -8,7 +8,7 @@
 
 **Why they differ.** A small number of very rich families pull the mean far up. The median only looks at the middle, so they hardly move it. That's why most families are worth much less than the average. For skewed data like wealth, income or house prices, the median shows the typical case better. Good reports give both, and say which one they mean. The bars in the picture are an illustration, not survey data.
 
-- Watch the one-minute video: P04VIDEO_URL
+- Watch the one-minute video: https://www.youtube.com/shorts/FcdoduRXHpk
 - Read the full page: https://datalyceum.com/pictures/04-why-the-average-can-lie/
 - Read the post on Substack: P04SUBSTACK_URL
 - Go deeper: Lesson 1.2: Statistics 1: averages, spread and distributions (out Monday 30 November)
