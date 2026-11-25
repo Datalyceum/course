@@ -61,6 +61,7 @@ Short, practical guides next to the course: which tool to pick, what a word mean
 |---|---|---|
 | 1 | [Which AI model fits you?](guides/01-which-ai-model) | [Watch](https://www.youtube.com/watch?v=HaORGE6J9Rw) |
 | 2 | [Every AI term on one map](guides/02-ai-map) | [Watch](https://www.youtube.com/watch?v=oqRIsrcNSrY) |
+| 3 | [What to learn first in AI](guides/03-what-to-learn-first) | [Watch](https://www.youtube.com/watch?v=G03VIDEO) |
 
 ## The course map
 

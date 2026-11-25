@@ -1,0 +1,128 @@
+---
+title: What to learn first in AI
+description: 'Data science, LLM apps, RAG or agents? Four doors into AI work: what you build, what you need first, a first project and the Azure service for each, plus four questions to pick yours.'
+sidebar:
+  label: '#3 What to learn first in AI'
+  order: 3
+head:
+  - tag: meta
+    attrs:
+      property: og:image
+      content: https://datalyceum.com/og/guides-03.jpg
+---
+
+Learn agents. Learn RAG. Learn prompt engineering. Learn data science first. They're all real skills, but they aren't four separate subjects. They sit on top of each other, and that changes where you should start. This guide looks at four doors into AI work: what you build behind each one, what you need first, a good first project and the Azure service it maps to. Then four questions to pick your door, and a plan for your first month. The video is in English, with YouTube's automatic dubbing in other languages (Settings → Audio track) and subtitles in French, Spanish, Japanese, Hindi, Turkish and Russian.
+
+<div style={{ position: 'relative', aspectRatio: '16 / 9', margin: '1.25rem 0' }}>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/G03VIDEO"
+    title="Data science, LLM apps, RAG or agents? What to learn first in AI (Datalyceum guide #3)"
+    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0, borderRadius: '12px' }}
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
+
+## The stack
+
+![The AI stack: data, models, LLM apps, RAG and agents, with evaluation along the side](/guides/what-to-learn-first/stack.jpg)
+
+| Layer | What it is |
+|---|---|
+| Data | Tables, documents, logs. Every AI system starts here. |
+| Models | Some you train yourself, like a model that predicts which customers will leave. Others are large language models someone else trained, and you use them. |
+| LLM apps | You send text to a model, get text back, and your code does something useful with it. |
+| RAG | Before the model answers, your app searches your own files and hands it the right pages. |
+| Agents | A model that plans several steps and uses tools, like search, a database or email, to finish a task. |
+| Evaluation | Runs along the whole stack: checking that the answers are actually right. Every door needs it. |
+
+## Door 1: data science
+
+![Door 1, data science](/guides/what-to-learn-first/door-1.jpg)
+
+| | |
+|---|---|
+| You build | Answers from data: which product sells best and why, how many staff next month, whether a machine will fail soon. Dashboards, forecasts and machine learning models. |
+| Learn first | Spreadsheets, SQL, a bit of Python, and statistics: averages, spread and correlation. |
+| First project | Take a public dataset you care about, clean it, describe it, and answer one question with a chart. |
+| Fits you if | You like asking why, and you enjoy finding the story in a table. |
+| On Azure | Microsoft Fabric and Power BI |
+
+In the course: [Season 0](/season-0/), then [Season 1](/season-1/): [1.1 Dirty data](/season-1/lesson-1-1-dirty-data/) and [1.2 Averages and spread](/season-1/lesson-1-2-averages-and-spread/). Seasons 2 and 3 follow on the [course map](/course-map/).
+
+## Door 2: LLM apps
+
+![Door 2, LLM apps](/guides/what-to-learn-first/door-2.jpg)
+
+| | |
+|---|---|
+| You build | Tools on top of language models: a summarizer for long reports, an assistant that drafts replies, a tool that pulls names and dates out of contracts into a table. |
+| Learn first | How to write a clear prompt, how to call a model through an API, and enough Python or JavaScript to glue things together. Also how to ask for structured output, like JSON, so your code can trust the shape of the answer. |
+| First project | A small app that turns meeting notes into a list of action items, with owners and dates. |
+| Fits you if | You like building things people use. |
+| On Azure | Microsoft Foundry: pick a model and call it from your app |
+
+In the course: the first look lab (L.2, your first call to an AI model), then Season 6, lessons 6.1 and 6.3, on the [course map](/course-map/).
+
+## Door 3: RAG
+
+![Door 3, RAG](/guides/what-to-learn-first/door-3.jpg)
+
+| | |
+|---|---|
+| You build | A model that answers from your own documents: policies, manuals, past tickets. The model never saw them in training, so your app finds the right pages and hands them over. |
+| Learn first | Everything from door 2, plus embeddings, a search index, and splitting documents into chunks. And above all, evaluation: a set of test questions with known answers that you check every change against. A RAG app that sounds confident but quotes the wrong page is worse than no app. |
+| First project | A question-answering app over twenty of your team's documents, which shows the source for every answer. |
+| Fits you if | Your company is drowning in documents. |
+| On Azure | The search part is usually Azure AI Search |
+
+In the course: 4.4 Embeddings, 6.4 RAG and 6.6 Evaluation, on the [course map](/course-map/).
+
+## Door 4: agents
+
+![Door 4, agents](/guides/what-to-learn-first/door-4.jpg)
+
+| | |
+|---|---|
+| You build | A model that doesn't just answer, it acts: it reads a request, plans the steps, calls tools, checks the result and tries again. |
+| Learn first | Everything from door 2, tool calling, and usually RAG as well, because agents need to look things up. Also guardrails: limits on what the agent may do, and a person who approves anything that can't be undone, like sending an email or paying an invoice. |
+| First project | An agent that reads a support ticket, looks up the customer's order, and drafts a reply for a person to approve. |
+| Fits you if | You like automating whole workflows, and you're patient with testing. |
+| On Azure | Foundry Agent Service |
+
+In the course: 6.5 Agents and 6.6 Risks and evaluation, on the [course map](/course-map/).
+
+## Which door is yours?
+
+![Four questions to pick your door](/guides/what-to-learn-first/questions.jpg)
+
+1. Do you enjoy questions about numbers, like why sales dropped? Start with door 1, data science.
+2. Do you want to build a working tool quickly? Start with door 2, LLM apps.
+3. Does your team have more documents than anyone can read? Learn door 2, then go straight to RAG.
+4. Do you want to automate a process from start to finish? Learn door 2, then RAG, then agents. Don't start at the top.
+
+## What every door needs
+
+- **Data quality.** Bad data gives bad answers, in a dashboard or in a chatbot.
+- **Evaluation.** A way to check that the output is right, not just that it sounds right.
+- **Cost.** Every model call and every query costs money. Measure it early.
+- **Security.** Keep secrets out of prompts, control who can see which documents, and treat anything an outsider writes as untrusted.
+
+## Your first month
+
+| Week | Do this |
+|---|---|
+| 1 | Learn data basics: Seasons 0 and 1 of this course, at least the first lessons, because every door uses them. |
+| 2 | Pick your door and do one tutorial, end to end. |
+| 3 | Build your first small project, the one from your door. |
+| 4 | Test it with real questions, fix what breaks, and show it to someone. |
+
+## Learn more on Microsoft Learn
+
+- [Microsoft Fabric](https://learn.microsoft.com/fabric/fundamentals/microsoft-fabric-overview)
+- [Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/)
+- [Azure AI Search](https://learn.microsoft.com/azure/search/search-what-is-azure-search)
+- [Foundry Agent Service](https://learn.microsoft.com/azure/foundry/agents/overview)
+
+Microsoft, Azure, Microsoft Fabric, Power BI and Microsoft Foundry are trademarks of the Microsoft group of companies. Datalyceum is independent and not affiliated with or endorsed by Microsoft.
