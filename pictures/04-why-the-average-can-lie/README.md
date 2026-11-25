@@ -10,7 +10,7 @@
 
 - Watch the one-minute video: https://www.youtube.com/shorts/FcdoduRXHpk
 - Read the full page: https://datalyceum.com/pictures/04-why-the-average-can-lie/
-- Read the post on Substack: P04SUBSTACK_URL
+- Read the post on Substack: https://datalyceum.substack.com/p/learn-ai-with-pictures-4-why-the
 - Go deeper: Lesson 1.2: Statistics 1: averages, spread and distributions (out Monday 30 November)
 
 Sources: Federal Reserve Board, [press release on the 2025 Survey of Consumer Finances](https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm) (9 October 2026), and [Changes in U.S. Family Finances from 2022 to 2025](https://www.federalreserve.gov/publications/files/scf26.pdf). Figures are in 2025 dollars.

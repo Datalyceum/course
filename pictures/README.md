@@ -4,7 +4,7 @@ One AI idea, one picture. Each picture can be read in about a minute and comes w
 
 | # | Picture | Web page | Video | Post |
 |---|---|---|---|---|
-| 4 | [Why the average can lie](04-why-the-average-can-lie) | [Read](https://datalyceum.com/pictures/04-why-the-average-can-lie/) | [Watch](https://www.youtube.com/shorts/FcdoduRXHpk) | [Substack](P04SUBSTACK_URL) |
+| 4 | [Why the average can lie](04-why-the-average-can-lie) | [Read](https://datalyceum.com/pictures/04-why-the-average-can-lie/) | [Watch](https://www.youtube.com/shorts/FcdoduRXHpk) | [Substack](https://datalyceum.substack.com/p/learn-ai-with-pictures-4-why-the) |
 | 3 | [One number, two units](03-one-number-two-units) | [Read](https://datalyceum.com/pictures/03-one-number-two-units/) | [Watch](https://youtube.com/shorts/Wt5N-J-LO4E) | [Substack](https://datalyceum.substack.com/p/learn-ai-with-pictures-3-one-number) |
 | 2 | [How a machine learns](02-how-a-machine-learns) | [Read](https://datalyceum.com/pictures/02-how-a-machine-learns/) | [Watch](https://youtube.com/shorts/O-__d6mncdY) | [Substack](https://datalyceum.substack.com/p/learn-ai-with-pictures-2-how-a-machine) |
 | 1 | [Programming vs machine learning](01-programming-vs-machine-learning) | [Read](https://datalyceum.com/pictures/01-programming-vs-machine-learning/) | [Watch](https://youtube.com/shorts/JSz5A8qPGu8) | [Substack](https://datalyceum.substack.com/p/learn-ai-with-pictures-1-programming) |
