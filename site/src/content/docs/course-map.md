@@ -19,7 +19,7 @@ Lesson numbers are `season.lesson`, so 2.3 is Season 2, lesson 3. Titles may cha
 | # | Lesson | Azure picture |
 |---|---|---|
 | 1.1 | [Dirty data: missing values, duplicates and outliers](/season-1/lesson-1-1-dirty-data/) | Data Wrangler and Dataflow Gen2 in Microsoft Fabric |
-| 1.2 | Statistics 1: averages, spread and distributions | Notebooks in Microsoft Fabric |
+| 1.2 | [Statistics 1: averages, spread and distributions](/season-1/lesson-1-2-averages-and-spread/) | Notebooks in Microsoft Fabric and Power BI |
 | 1.3 | Statistics 2: correlation, causation, sampling and bias | Power BI in Microsoft Fabric |
 | 1.4 | Probability for AI: chance and "how sure is the model?" | Model confidence in Azure Machine Learning |
 | 1.5 | Charts that tell the truth | Power BI in Microsoft Fabric |
